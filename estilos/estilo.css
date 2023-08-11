@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 100vh;
+    width: 100vh;
+    background-image: linear-gradient(to top, #df6f0e,#f7d0b3e5);
+}
+
+.s01{
+position: absolute;
+top: 50%;
+left: 34%;
+transform:translate(-50%,-50%);
+height: 600px;
+width: 500px;
+background-color: aqua;
+
+}
+
+.s02, .s03{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.s02{
+    top: 50%;
+    left: 66%;
+
+    height: 600px;
+    width: 500px;
+    background-color: rgb(89, 10, 92);
+    
+
+}
+
+.s03{
+    top: 50%;
+    left: 66%;
+ 
+    height: 600px;
+    width: 500px;
+    background-color: rgb(199, 44, 24);
+    transform: rotateY(180deg);
+    
+}
+
+.flip-container:hover .flipper{
+	transform: rotateY(180deg);
+    
+	/* se quiser uma animação na vertical,
+	troque por rotateX(180deg)
+	*/
+}
+
+.flipper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.s02, .s03{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+
