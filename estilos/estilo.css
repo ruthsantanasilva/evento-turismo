@@ -1,73 +1,84 @@
 @charset "utf-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html{
+html {
     height: 100vh;
-    width: 100vh;
-    background-image: linear-gradient(to top, #df6f0e,#f7d0b3e5);
+    width: 100vw;
+    background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
 }
 
-.s01{
-position: absolute;
-top: 50%;
-left: 34%;
-transform:translate(-50%,-50%);
-height: 600px;
-width: 500px;
-background-color: aqua;
-
+h1 {
+    text-align: center;
+    font-size: 3em;
 }
 
-.s02, .s03{
+.s01 {
     position: absolute;
-    backface-visibility: hidden;
-}
-
-.s02{
     top: 50%;
-    left: 66%;
-
+    left: 34%;
+    transform: translate(-50%, -50%);
     height: 600px;
     width: 500px;
-    background-color: rgb(89, 10, 92);
-    
+    background-color: aqua;
 
 }
 
-.s03{
-    top: 50%;
-    left: 66%;
- 
-    height: 600px;
-    width: 500px;
-    background-color: rgb(199, 44, 24);
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
     transform: rotateY(180deg);
-    
 }
 
-.flip-container:hover .flipper{
-	transform: rotateY(180deg);
-    
-	/* se quiser uma animação na vertical,
-	troque por rotateX(180deg)
-	*/
+.flip-container,
+.front,
+.back {
+    height: 600px;
+    width: 500px;
+
 }
 
-.flipper{
+.flipper {
     position: relative;
-    height: 100%;
-    width: 100%;
-	transition: transform 0.8s;
-	transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
 }
 
-.s02, .s03{
+.front,
+.back {
     position: absolute;
     backface-visibility: hidden;
+    top: 0;
+    left: 0;
+
 }
 
+.front {
+    transform: rotateY(0deg);
+}
 
+.back {
+    transform: rotateY(180deg);
+}
+
+.flip-container {
+    position: absolute;
+    top: 19%;
+    left: 50%;
+}
+
+.box {
+    height: 600px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.box-front {
+    background-color: rgb(89, 10, 92);
+}
+
+.box-back {
+    background-color: rgb(199, 44, 24);
+}
