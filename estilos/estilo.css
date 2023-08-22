@@ -1,243 +1,306 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'Beach';
-    src: url('../fontes/SouthernBeach.otf');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Beach";
+  src: url("../fontes/SouthernBeach.otf");
+  font-weight: bold;
+  font-style: normal;
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    height: 180vh;
-    width: 97vw;
-    background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
+  height: 175vh;
+  width: 98vw;
+  background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
+}
+
+section {
+  height: 140vh;
+}
+
+header img {
+  margin-left: 30px;
+  margin-top: 15px;
+  width: 150px;
+  height: 68px;
+}
+
+ul {
+  text-align: right;
+  margin-top: -80px;
+  margin-right: 10px;
+}
+
+ul li {
+  display: inline-block;
+  background-color: #df6f0e;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.514);
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: white;
+  color: #df6f0e;
+  transition: 0.6s;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul li a:hover {
+  text-decoration: none;
+  color: #df6f0e;
+  transition: 0.6s;
 }
 
 h1 {
-    font-family: 'Beach';
-    text-align: center;
-    font-size: 3em;
+  margin-top: 20px;
+  font-family: "Beach";
+  text-align: center;
+  font-size: 2.5em;
 }
 
+h2 {
+  font-family: "Beach";
+  text-align: center;
+  font-size: 1.5em;
+}
 
 .flip-container:hover .flipper,
 .flip-container.hover .flipper {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .flip-container,
 .front,
 .back {
-    height: 600px;
-    width: 500px;
-    background-color: transparent;
+  margin-top: 40px;
+  height: 500px;
+  width: 400px;
+  background-color: transparent;
 }
 
 .flipper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.8s;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
 }
 
 .front,
 .back {
-    position: absolute;
-    backface-visibility: hidden;
-    width: 100%;
-    height: 100%;
-
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 .front {
-    transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
 .back {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .flip-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .box {
-    height: 600px;
-    width: 500px;
-    cursor: pointer;
-    border-radius: 20px;
-
+  height: 500px;
+  width: 400px;
+  cursor: pointer;
+  border-radius: 20px;
 }
-
 
 .box-front {
-    background-color: rgba(245, 245, 245, 0.719);
+  background-color: rgba(245, 245, 245, 0.719);
 }
 
-.box-front h1{
-    font-size: 2.3em;
+.box-front h1 {
+  font-size: 2em;
 }
-.box-front h2{
-    font-family: 'Beach';
-    text-align: center;
-    font-size: 1.5em;
+.box-front h2 {
+  font-family: "Beach";
+  text-align: center;
+  font-size: 1.5em;
 }
 .box-front p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: justify;
-    padding: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  padding: 10px;
+  font-size: 0.8em;
 }
-.box-front .valor{
-    text-align: center;
-    font-size: 1em;
-    font-weight: bolder;
-    margin-bottom: -20px;
+.box-front .valor {
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: bolder;
+  margin-bottom: -20px;
 }
-.box-front .preco{
-    text-align: center;
-    font-size: 2em;
+.box-front .preco {
+  text-align: center;
+  font-size: 1.8em;
 }
 
-.box-front .obs{
-    font-family: 'Beach';
-    text-align: center;
-    font-size: 1.2em;
+.box-front .obs {
+  font-family: "Beach";
+  text-align: center;
+  font-size: 1em;
 }
 
 .box-back {
-    background: black url('../imagens/bonito.jpg') center center no-repeat fixed;
-    background-size: cover;
+  background: black url("../imagens/bonito.jpg") center center no-repeat fixed;
+  background-size: cover;
 }
-.box-back p{
-    text-align: center;
+.box-back p {
+  text-align: center;
 }
 
-#botao{
-    background-color: #df6f0e;
-    font-weight: bolder;
-    padding: 20px;
-    margin-top: 400px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
-    border-color: transparent;
-    text-align: center;
-    cursor: pointer;
+#botao {
+  background-color: #df6f0e;
+  font-weight: bolder;
+  padding: 20px;
+  margin-top: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+  border-color: transparent;
+  text-align: center;
+  cursor: pointer;
 }
 
 /*Segundo pacote*/
 
 .flip-container2:hover .flipper2,
 .flip-container2.hover .flipper2 {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .flip-container2,
 .front2,
 .back2 {
-    margin-top: 320px;
-    height: 600px;
-    width: 500px;
-    background-color: transparent;
-
+  height: 500px;
+  width: 400px;
+  background-color: transparent;
 }
 
 .flipper2 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.8s;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
 }
 
 .front2,
 .back2 {
-    position: absolute;
-    backface-visibility: hidden;
-    width: 100%;
-    height: 100%;
-
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 .front2 {
-    transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
 .back2 {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .flip-container2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .box2 {
-    height: 600px;
-    width: 500px;
-    cursor: pointer;
+  height: 500px;
+  width: 400px;
+  cursor: pointer;
 }
 
 .box-front2 {
-    background-color: rgba(245, 245, 245, 0.719);
+  background-color: rgba(245, 245, 245, 0.719);
 }
 
-.box-front2 h1{
-    font-size: 2.3em;
+.box-front2 h1 {
+  font-size: 2em;
 }
-.box-front2 h2{
-    font-family: 'Beach';
-    text-align: center;
-    font-size: 1.5em;
+.box-front2 h2 {
+  font-family: "Beach";
+  text-align: center;
+  font-size: 1.5em;
 }
 .box-front2 p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: justify;
-    padding: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  padding: 10px;
+  font-size: 0.8em;
 }
-.box-front2 .valor2{
-    text-align: center;
-    font-size: 1em;
-    font-weight: bolder;
-    margin-bottom: -20px;
+.box-front2 .valor2 {
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: bolder;
+  margin-bottom: -20px;
 }
-.box-front2 .preco2{
-    text-align: center;
-    font-size: 2em;
+.box-front2 .preco2 {
+  text-align: center;
+  font-size: 1.8em;
 }
 
-.box-front2 .obs2{
-    font-family: 'Beach';
-    text-align: center;
-    font-size: 1.2em;
+.box-front2 .obs2 {
+  font-family: "Beach";
+  text-align: center;
+  font-size: 1em;
 }
 
 .box-back2 {
-    background: black url('../imagens/praia.jpg') center center no-repeat fixed;
-    background-size: cover;
+  background: black url("../imagens/praia.jpg") center center no-repeat fixed;
+  background-size: cover;
 }
-.box-back2 p{
-    text-align: center;
+.box-back2 p {
+  text-align: center;
 }
 
-#botao2{
-    background-color: #df6f0e;
-    font-weight: bolder;
-    padding: 20px;
-    margin-top: 400px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
-    border-color: transparent;
-    text-align: center;
-    cursor: pointer;
+#botao2 {
+  background-color: #df6f0e;
+  font-weight: bolder;
+  padding: 20px;
+  margin-top: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+  border-color: transparent;
+  text-align: center;
+  cursor: pointer;
+}
+
+footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: white;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  text-decoration: underline;
 }
