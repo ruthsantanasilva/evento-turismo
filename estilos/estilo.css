@@ -19,7 +19,7 @@ body {
 }
 
 section {
-  height: 140vh;
+  height: 145vh;
 }
 
 header img {
@@ -226,7 +226,7 @@ h2 {
 
 .flip-container2 {
   position: absolute;
-  top: 125%;
+  top: 135%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -296,6 +296,7 @@ footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   color: white;
+  margin-top: 10px;
 }
 footer a {
   text-decoration: none;
