@@ -13,13 +13,13 @@
 }
 
 body {
-  height: 175vh;
+  height: 230vh;
   width: 98vw;
   background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
 }
 
 section {
-  height: 145vh;
+  height: 195vh;
 }
 
 header img {
@@ -42,7 +42,7 @@ ul li {
   margin-top: 10px;
   margin-left: 10px;
   border-radius: 10px;
-  width: 100px;
+  width: 105px;
   text-align: center;
   font-weight: bolder;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -66,10 +66,10 @@ ul li a:hover {
 }
 
 h1 {
-  margin-top: 20px;
+  margin-top: 15px;
   font-family: "Beach";
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 h2 {
@@ -86,9 +86,9 @@ h2 {
 .flip-container,
 .front,
 .back {
-  margin-top: 40px;
-  height: 500px;
-  width: 400px;
+  margin-top: 30px;
+  height: 400px;
+  width: 360px;
   background-color: transparent;
 }
 
@@ -124,8 +124,8 @@ h2 {
 }
 
 .box {
-  height: 500px;
-  width: 400px;
+  height: 400px;
+  width: 360px;
   cursor: pointer;
   border-radius: 20px;
 }
@@ -135,49 +135,47 @@ h2 {
 }
 
 .box-front h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .box-front h2 {
   font-family: "Beach";
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .box-front p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: justify;
   padding: 10px;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 .box-front .valor {
   text-align: center;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: bolder;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
 }
 .box-front .preco {
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1em;
 }
 
 .box-front .obs {
   font-family: "Beach";
   text-align: center;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .box-back {
   background: black url("../imagens/bonito.jpg") center center no-repeat fixed;
   background-size: cover;
-}
-.box-back p {
   text-align: center;
 }
 
-#botao {
+.botao {
   background-color: #df6f0e;
   font-weight: bolder;
   padding: 20px;
-  margin-top: 400px;
+  margin-top: 300px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
   border-color: transparent;
@@ -192,11 +190,9 @@ h2 {
   transform: rotateY(180deg);
 }
 
-.flip-container2,
-.front2,
-.back2 {
-  height: 500px;
-  width: 400px;
+.flip-container2 {
+  height: 400px;
+  width: 360px;
   background-color: transparent;
 }
 
@@ -208,88 +204,53 @@ h2 {
   transition: transform 0.8s;
 }
 
-.front2,
-.back2 {
-  position: absolute;
-  backface-visibility: hidden;
-  width: 100%;
-  height: 100%;
-}
-
-.front2 {
-  transform: rotateY(0deg);
-}
-
-.back2 {
-  transform: rotateY(180deg);
-}
 
 .flip-container2 {
   position: absolute;
-  top: 135%;
+  top: 120%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.box2 {
-  height: 500px;
-  width: 400px;
-  cursor: pointer;
-}
-
-.box-front2 {
-  background-color: rgba(245, 245, 245, 0.719);
-}
-
-.box-front2 h1 {
-  font-size: 2em;
-}
-.box-front2 h2 {
-  font-family: "Beach";
-  text-align: center;
-  font-size: 1.5em;
-}
-.box-front2 p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: justify;
-  padding: 10px;
-  font-size: 0.8em;
-}
-.box-front2 .valor2 {
-  text-align: center;
-  font-size: 0.9em;
-  font-weight: bolder;
-  margin-bottom: -20px;
-}
-.box-front2 .preco2 {
-  text-align: center;
-  font-size: 1.8em;
-}
-
-.box-front2 .obs2 {
-  font-family: "Beach";
-  text-align: center;
-  font-size: 1em;
 }
 
 .box-back2 {
   background: black url("../imagens/praia.jpg") center center no-repeat fixed;
   background-size: cover;
-}
-.box-back2 p {
   text-align: center;
 }
 
-#botao2 {
-  background-color: #df6f0e;
-  font-weight: bolder;
-  padding: 20px;
-  margin-top: 400px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
-  border-color: transparent;
+/*Terceiro pacote*/
+
+.flip-container3:hover .flipper3,
+.flip-container3.hover .flipper3 {
+  transform: rotateY(180deg);
+}
+
+.flip-container3 {
+  height: 400px;
+  width: 360px;
+  background-color: transparent;
+}
+
+.flipper3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+
+.flip-container3 {
+  position: absolute;
+  top: 185%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box-back3 {
+  background: black url("../imagens/nova.jpg") center center no-repeat fixed;
+  background-size: cover;
   text-align: center;
-  cursor: pointer;
 }
 
 footer {
