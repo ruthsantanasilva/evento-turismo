@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (min-width: 540px) and (max-width: 912px) {
+@media screen and (min-width: 540px) and (max-width: 768px) {
   body {
     height: 230vh;
     width: 98vw;
@@ -88,7 +88,7 @@
   .flip-container2 {
     height: 450px;
     width: 400px;
-    top: 120%;
+    top: 117%;
   }
 
   .flip-container3 {
@@ -97,3 +97,185 @@
     top: 185%;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+    body {
+      height: 230vh;
+      width: 98vw;
+      background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
+    }
+
+    header img {
+        margin-left: 35px;
+        margin-top: 15px;
+        width: 80px;
+        height: 88px;
+      }
+  
+    section {
+      height: 200vh;
+    }
+  
+    ul li {
+      width: 185px;
+      padding: 15px;
+    }
+
+    ul {
+        margin-top: -60px;
+        margin-right: 10px;
+      }
+
+    h1 {
+        margin-top: 20px;
+        font-size: 2.5em;
+      }
+
+    .flip-container,
+    .front,
+    .back {
+      margin-top: 30px;
+      height: 600px;
+      width: 500px;
+    }
+  
+    .box {
+      height: 600px;
+      width: 500px;
+    }
+  
+    .flip-container2 {
+      height: 600px;
+      width: 500px;
+      top: 124%;
+    }
+  
+    .flip-container3 {
+      height: 600px;
+      width: 500px;
+      top: 195%;
+    }
+
+    .box-front h1 {
+        font-size: 2.2em;
+      }
+      .box-front h2 {
+        font-size: 2em;
+      }
+      .box-front p {
+        font-size: 1em;
+        padding: 15px;
+      }
+      .box-front .valor {
+
+        font-size: 1em;
+        margin-bottom: -30px;
+      }
+      .box-front .preco {
+        text-align: center;
+        font-size: 1.5em;
+      }
+      
+      .box-front .obs {
+        font-family: "Beach";
+        text-align: center;
+        font-size: 1.2em;
+      }
+
+      .botao {
+        padding: 30px;
+        margin-top: 400px;
+        font-size: 1em;
+      }
+    }
+
+      @media screen and (min-width: 1024px) {
+        body {
+          height: 325vh;
+          width: 98vw;
+          background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
+        }
+    
+        header img {
+            margin-left: 35px;
+            margin-top: 15px;
+            width: 80px;
+            height: 88px;
+          }
+      
+        section {
+          height: 280vh;
+        }
+      
+        ul li {
+          width: 185px;
+          padding: 15px;
+        }
+    
+        ul {
+            margin-top: -60px;
+            margin-right: 10px;
+          }
+    
+        h1 {
+            margin-top: 20px;
+            font-size: 2.5em;
+          }
+    
+        .flip-container,
+        .front,
+        .back {
+          margin-top: 80px;
+          height: 500px;
+          width: 400px;
+        }
+      
+        .box {
+          height: 500px;
+          width: 400px;
+        }
+      
+        .flip-container2 {
+          height: 500px;
+          width: 400px;
+          top: 155%;
+        }
+      
+        .flip-container3 {
+          height: 500px;
+          width: 400px;
+          top: 245%;
+        }
+    
+        .box-front h1 {
+            font-size: 2em;
+          }
+          .box-front h2 {
+            font-size: 1.8em;
+          }
+          .box-front p {
+            font-size: 0.8em;
+            padding: 15px;
+          }
+          .box-front .valor {
+            font-size: 0.8em;
+            margin-bottom: -40px;
+          }
+          .box-front .preco {
+            text-align: center;
+            font-size: 1.2em;
+          }
+          
+          .box-front .obs {
+            font-family: "Beach";
+            text-align: center;
+            font-size: 1em;
+          }
+    
+          .botao {
+            padding: 20px;
+            margin-top: 350px;
+            font-size: 0.8em;
+          }
+
+  }
