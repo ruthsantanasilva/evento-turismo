@@ -13,19 +13,19 @@
 }
 
 body {
-  height: 230vh;
+  height: 222vh;
   width: 98vw;
   background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
 }
 
 section {
-  height: 195vh;
+  height: 185vh;
 }
 
 header img {
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 15px;
-  width: 150px;
+  width: 60px;
   height: 68px;
 }
 
@@ -42,7 +42,7 @@ ul li {
   margin-top: 10px;
   margin-left: 10px;
   border-radius: 10px;
-  width: 105px;
+  width: 100px;
   text-align: center;
   font-weight: bolder;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -87,8 +87,8 @@ h2 {
 .front,
 .back {
   margin-top: 30px;
-  height: 400px;
-  width: 360px;
+  height: 385px;
+  width: 330px;
   background-color: transparent;
 }
 
@@ -124,8 +124,8 @@ h2 {
 }
 
 .box {
-  height: 400px;
-  width: 360px;
+  height: 385px;
+  width: 330px;
   cursor: pointer;
   border-radius: 20px;
 }
@@ -163,6 +163,7 @@ h2 {
   font-family: "Beach";
   text-align: center;
   font-size: 0.8em;
+  margin-top: -15px;
 }
 
 .box-back {
@@ -191,8 +192,8 @@ h2 {
 }
 
 .flip-container2 {
-  height: 400px;
-  width: 360px;
+  height: 385px;
+  width: 330px;
   background-color: transparent;
 }
 
@@ -207,7 +208,7 @@ h2 {
 
 .flip-container2 {
   position: absolute;
-  top: 120%;
+  top: 116%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -226,8 +227,8 @@ h2 {
 }
 
 .flip-container3 {
-  height: 400px;
-  width: 360px;
+  height: 385px;
+  width: 330px;
   background-color: transparent;
 }
 
@@ -242,7 +243,7 @@ h2 {
 
 .flip-container3 {
   position: absolute;
-  top: 185%;
+  top: 173%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
