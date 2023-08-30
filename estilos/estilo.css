@@ -13,13 +13,13 @@
 }
 
 body {
-  height: 222vh;
-  width: 98vw;
+  height: 210vh;
+  width: 97vw;
   background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
 }
 
 section {
-  height: 185vh;
+  height: 180vh;
 }
 
 header img {
@@ -205,10 +205,9 @@ h2 {
   transition: transform 0.8s;
 }
 
-
 .flip-container2 {
   position: absolute;
-  top: 116%;
+  top: 120%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -240,10 +239,9 @@ h2 {
   transition: transform 0.8s;
 }
 
-
 .flip-container3 {
   position: absolute;
-  top: 173%;
+  top: 185%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
