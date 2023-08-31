@@ -106,7 +106,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1290px) {
   body {
-    height: 100vh;
+    height: 115vh;
   }
   header img {
     margin-left: 40px;
@@ -202,7 +202,7 @@
 
 @media screen and (min-width: 1290px) {
   body {
-    height: 100vh;
+    height: 120vh;
   }
 
   header img {
@@ -292,6 +292,6 @@
   }
 
   .rodape {
-    margin-top: 710px;
+    margin-top: 760px;
   }
 }
