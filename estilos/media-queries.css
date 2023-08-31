@@ -1,85 +1,35 @@
 @charset "utf-8";
 
-@media screen and (min-width: 412px) and (max-width: 540px) {
-  /*body {
-    height: 175vh;
-    width: 98vw;
-    background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
-  }
-
-  section {
-    height: 148vh;
-  }*/
-
-  ul li {
-    width: 125px;
-  }
-  .flip-container,
-  .front,
-  .back {
-    top: 30%;
-  }
-
-  .flip-container2 {
-    top: 90%;
-  }
-
-  .flip-container3 {
-    top: 147%;
-  }
-}
-
 @media screen and (min-width: 540px) and (max-width: 768px) {
-  body {
-    height: 250vh;
-    width: 98vw;
-    background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
-  }
-
-  section {
-    height: 223vh;
-  }
-
   ul li {
     width: 125px;
   }
+
   .flip-container,
   .front,
-  .back {
-    top: 30%;
-    height: 500px;
-    width: 400px;
-  }
-
+  .back,
+  .flip-container2,
+  .flip-container3,
   .box {
+    margin-top: 10%;
     height: 500px;
     width: 400px;
   }
 
-  .flip-container2 {
-    height: 500px;
-    width: 400px;
-    top: 110%;
+  .flipper2 {
+    top: 2%;
   }
 
-  .flip-container3 {
-    height: 500px;
-    width: 400px;
-    top: 185%;
+  .flipper3 {
+    top: 5%;
+  }
+
+  .rodape {
+    margin-top: 1250px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  body {
-    height: 265vh;
-    width: 96vw;
-    background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
-  }
-
-  section {
-    height: 227vh;
-  }
-
   header img {
     margin-left: 35px;
     margin-top: 15px;
@@ -97,34 +47,28 @@
     margin-right: 10px;
   }
 
-  h1 {
+  header h1 {
     margin-top: 20px;
     font-size: 2.5em;
   }
 
   .flip-container,
   .front,
-  .back {
-    top: 32%;
-    height: 500px;
-    width: 400px;
-  }
-
+  .back,
+  .flip-container2,
+  .flip-container3,
   .box {
+    margin-top: 10%;
     height: 500px;
     width: 400px;
   }
 
-  .flip-container2 {
-    height: 500px;
-    width: 400px;
-    top: 110%;
+  .flipper2 {
+    top: 1%;
   }
 
-  .flip-container3 {
-    height: 500px;
-    width: 400px;
-    top: 185%;
+  .flipper3 {
+    top: 3%;
   }
 
   .box-front h1 {
@@ -142,13 +86,10 @@
     margin-bottom: -50px;
   }
   .box-front .preco {
-    text-align: center;
     font-size: 1.5em;
   }
 
   .box-front .obs {
-    font-family: "Beach";
-    text-align: center;
     font-size: 1em;
   }
 
@@ -157,19 +98,16 @@
     margin-top: 400px;
     font-size: 1em;
   }
+
+  .rodape {
+    margin-top: 1200px;
+  }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1300px) {
+@media screen and (min-width: 1024px) and (max-width: 1290px) {
   body {
-    height: 110vh;
-    width: 98vw;
-    background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
+    height: 100vh;
   }
-
-  section {
-    height: 75vh;
-  }
-
   header img {
     margin-left: 40px;
     margin-top: 20px;
@@ -187,64 +125,43 @@
     margin-right: 10px;
   }
 
-  h1 {
+  header h1 {
     margin-top: 20px;
     font-size: 2.5em;
   }
 
   .flip-container,
   .front,
-  .back {
-    margin-top: 0px;
-    height: 520px;
-    width: 300px;
-    float: left;
-    width: -1%;
-    height: 50%;
+  .back,
+  .flip-container2,
+  .flip-container3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .flip-container {
+    margin-top: 35%;
+    margin-right: 10%;
+    width: 100%;
+    height: 100%;
   }
 
-  .flip-container {
-    position: absolute;
-    top: 52%;
-    left: 20%;
+  .flipper {
+    margin-left: 14%;
+  }
+
+  .flipper2 {
+    margin-left: 5%;
+  }
+  .flipper3 {
+    margin-left: 5%;
   }
 
   .box {
-    height: 520px;
-    width: 300px;
-  }
-
-  .flip-container2,
-  .front,
-  .back {
-    height: 520px;
-    width: 300px;
-    float: left;
-    width: -1%;
-    height: 50%;
-  }
-
-  .flip-container2 {
-    float: right;
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .flip-container3,
-  .front,
-  .back {
-    height: 520px;
-    width: 300px;
-    float: left;
-    width: -1%;
-    height: 50%;
-  }
-
-  .flip-container3 {
-    float: right;
-    top: 52%;
-    left: 80%;
+    height: 600px;
+    width: 100%;
   }
 
   .box-front h1 {
@@ -277,17 +194,15 @@
     margin-top: 350px;
     font-size: 0.8em;
   }
+
+  .rodape {
+    margin-top: 380px;
+  }
 }
 
-@media screen and (min-width: 1301px) {
+@media screen and (min-width: 1290px) {
   body {
-    height: 120vh;
-    width: 98vw;
-    background-image: linear-gradient(to top, #df6f0e, #f7d0b3e5);
-  }
-
-  section {
-    height: 80vh;
+    height: 100vh;
   }
 
   header img {
@@ -307,64 +222,42 @@
     margin-right: 10px;
   }
 
-  h1 {
-    margin-top: 20px;
-    font-size: 2.5em;
+  header h1 {
+    margin-top: 25px;
+    font-size: 3em;
   }
 
   .flip-container,
   .front,
-  .back {
-    margin-top: 0px;
-    height: 600px;
-    width: 400px;
-    float: left;
-    width: -1%;
-    height: 50%;
+  .back,
+  .flip-container2,
+  .flip-container3 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
   }
 
   .flip-container {
-    position: absolute;
-    top: 50%;
-    left: 18%;
+    margin-top: 6%;
+    margin-right: 10%;
+    width: 100%;
+    height: 100%;
+  }
+  .flipper {
+    margin-left: 14%;
+  }
+  .flipper2 {
+    margin-left: 5%;
+  }
+
+  .flipper3 {
+    margin-left: 5%;
   }
 
   .box {
     height: 600px;
-    width: 400px;
-  }
-
-  .flip-container2,
-  .front,
-  .back {
-    height: 600px;
-    width: 400px;
-    float: left;
-    width: -1%;
-    height: 50%;
-  }
-
-  .flip-container2 {
-    float: right;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .flip-container3,
-  .front,
-  .back {
-    height: 600px;
-    width: 400px;
-    float: left;
-    width: -1%;
-    height: 50%;
-  }
-
-  .flip-container3 {
-    float: right;
-    top: 50%;
-    left: 82%;
+    width: 100%;
   }
 
   .box-front h1 {
@@ -396,5 +289,9 @@
     padding: 20px;
     margin-top: 350px;
     font-size: 0.8em;
+  }
+
+  .rodape {
+    margin-top: 710px;
   }
 }
