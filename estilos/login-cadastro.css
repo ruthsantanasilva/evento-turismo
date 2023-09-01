@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+@keyframes appear {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    background-color: #fff;
+  }
+  45% {
+    transform: translate(-50%, -50%) scale(1.6);
+    background-color: #64aedf;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.7);
+    background-color: #ad97b3;
+  }
+  55% {
+    transform: translate(-50%, -50%) scale(1.6);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    background-color: #ca8489;
+  }
+}
+
+#div1,
+#div2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-style: none;
+  width: 50px;
+  cursor: pointer;
+}
+
+.selecao {
+  margin-top: 20px;
+  display: flex;
+  border-radius: 1em;
+  padding: 3em;
+}
+.slogin {
+  cursor: pointer;
+}
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: transparent;
+  position: relative;
+  top: 6px;
+}
+
+input[type="radio"]:checked::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #ca8489;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: appear 0.8s;
+}
+
+.flip-containerlc,
+.frontlc,
+.backlc {
+  visibility: visible;
+  margin-top: 20px;
+  height: 500px;
+  width: 400px;
+  background-color: transparent;
+}
+
+.flipperlc {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.frontlc,
+.backlc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.boxlc {
+  height: 500px;
+  width: 400px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.box-frontlc {
+  background-color: rgba(245, 245, 245, 0.719);
+}
+
+.box-frontlc h1 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  font-family: "Beach";
+  text-align: center;
+}
+.box-frontlc h2 {
+  font-family: "Beach";
+  text-align: center;
+  font-size: 1em;
+}
+.box-frontlc p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  padding: 10px;
+  font-size: 0.7em;
+}
+.box-frontlc .valor {
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bolder;
+  margin-bottom: -30px;
+}
+.box-frontlc .preco {
+  text-align: center;
+  font-size: 1em;
+}
+
+.box-frontlc .obs {
+  font-family: "Beach";
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: -15px;
+}
+
+.box-backlc {
+  background: black url("../imagens/bonito.jpg") center center no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.botaolc {
+  background-color: #df6f0e;
+  font-weight: bolder;
+  padding: 20px;
+  margin-top: 300px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+  border-color: transparent;
+  text-align: center;
+  cursor: pointer;
+}

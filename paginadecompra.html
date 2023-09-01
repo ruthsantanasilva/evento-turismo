@@ -5,9 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página de compra</title>
     <link rel="stylesheet" href="estilos/estilo.css" />
+    <link rel="stylesheet" href="estilos/login-cadastro.css" />
+   
   </head>
   <body>
     <h1>Este projeto está em produção....</h1>
     <h2>Página de Login ou Cadastro</h2>
+  
+
+    <section class="corpo">
+
+       <div class="selecao">
+        <input type="radio" id="div1" class="rd" name="consulta[]" value="1" required/>
+        <label for="div1" class="slogin">Login</label>
+    
+        <input type="radio" id="div2" class="rd" name="consulta[]" value="2" required/>
+        <label for="div2" class="slogin"> Cadastro
+        </label>
+      </div>
+
+   <div class="flip-containerlc">
+    <div class="flipperlc">
+      <div id="ediv1" class="onOff" style="display:none" class="frontlc">
+        <div id="box1" class="boxlc box-frontlc">
+        <form action="login.php">
+          <legend>Login</legend>
+          <label for="email">E-mail: <input type="email" name="email" id="email" checked></label>
+          <label for="senha">Senha<input type="password" name="senha" id="senha"></label>
+
+          <input type="button" value="Entrar">
+        </form>
+        </div>
+
+      </div>
+
+      <div id="ediv2" class="onOff" style="display:none" class="backlc">
+        <div class="boxlc box-backlc">
+          <form action="login.php">
+            <legend>Cadastro</legend>
+            <label for="nome">Nome Completo: <input type="text" name="nome" id="nome" checked></label>
+            <label for="email">E-mail: <input type="email" name="email" id="email" checked></label>
+            <label for="senha">Senha<input type="password" name="senha" id="senha"></label>
+
+            <input type="button" value="Entrar">
+          </form>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+
+<script>
+
+   let radio = document.querySelectorAll(".rd");
+
+ for(let i = 0; i < radio.length; i++) {
+
+    radio[i].onclick = function(){
+       let div = document.querySelectorAll('.onOff');
+       for(let i = 0; i < div.length; i++) div[i].style.display = 'none';
+       document.getElementById('e' + radio[i].id).style.display = "block";
+    }
+}
+
+
+
+</script> 
+
+
+	
+	<!-- Aprendendooooooooo
+		<img src="img.png" class="" id="img" alt="Teste" />
+		Aqui você carrega a imagem de sua escolha 
+		<br />
+		<button id="back">Voltar </button> botão voltar
+		<button id="next">avançar</button> botão avançar
+ 
+    <script>
+		
+			rotate = 0; // Declaramos uma variável com a rotação 0.
+			
+			document.addEventListener("DOMContentLoaded", function(){ // Usando eventListener, e quando a página for carregada...
+			
+				document.getElementById("next").addEventListener("click", function(){ //Quando houver um clique no botão next..
+				
+					if(rotate == 360){rotate = 0} //Verificamos se o valor da variável rotate é 360, se for zeramos o valor.
+				
+					rotate = rotate + 180; //Fazemoz um incremento de 30, ou seja se antes tinha 0 e incrementamos 30 temos o valor de 30, na próxima execução se temos 30 e incrementamos mais 30, vamos para 60 e assim por diante.
+					
+					document.getElementById("img").style.transform = "rotateY("+rotate+"deg)"; //Acessamos o elemento img e através do style.transform atribuimos o rotate com o valor atual de nossa variável.
+				});
+				
+				document.getElementById("back").addEventListener("click", function(){ //Quando houver um clique no botão voltar..
+				
+					if(rotate== -360){rotate = 0} //Verificamos se o valor da variável rotate é -360, se for zeramos o valor.
+				
+					rotate = rotate + -30 ;//Fazemoz um incremento de -30, ou seja se antes tinha 0 e incrementamos -30 temos o valor de -30, na próxima execução se temos -30 e incrementamos mais -30, vamos para -60 e assim por diante. isto fará nosso elemento voltar.
+					
+					document.getElementById("img").style.transform = "rotate("+rotate+"deg)"; //Acessamos o elemento img e através do style.transform atribuimos o rotate com o valor atual de nossa variável.
+				});		
+			});
+			
+		</script>
+-->
   </body>
 </html>
