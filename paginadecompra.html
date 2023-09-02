@@ -6,84 +6,138 @@
     <title>Página de compra</title>
     <link rel="stylesheet" href="estilos/estilo.css" />
     <link rel="stylesheet" href="estilos/login-cadastro.css" />
-   
   </head>
   <body>
-    <nav>
+    <div class="paglogin">
       <img src="imagens/logodes.png" alt="fotodalogo" />
-      <ul>
-        <li><a href="paginadecompra.html" target="_blank">Cadastro</a></li>
-        <li><a href="paginadecompra.html" target="_blank">Login</a></li>
-      </ul>
-    </nav>
-
-    <h1>Este projeto está em produção....</h1>
-    <h2>Página de Login ou Cadastro</h2>
-  
-
-    <section class="corpo">
-
-       <div class="selecao">
-        <input type="radio" id="div1" class="rd" name="consulta[]" value="1" required/>
-        <label for="div1" class="slogin">Login</label>
-    
-        <input type="radio" id="div2" class="rd" name="consulta[]" value="2" required/>
-        <label for="div2" class="slogin"> Cadastro
-        </label>
-      </div>
-
-   <div class="flip-containerlc">
-    <div class="flipperlc">
-      <div id="ediv1" class="onOff" style="display:none" class="frontlc">
-        <div id="box1" class="boxlc box-frontlc">
-        <form action="login.php">
-          <legend>Login</legend>
-          <label for="email">E-mail: <input type="email" name="email" id="email" checked></label>
-          <label for="senha">Senha<input type="password" name="senha" id="senha"></label>
-
-          <input type="button" value="Entrar">
-        </form>
-        </div>
-
-      </div>
-
-      <div id="ediv2" class="onOff" style="display:none" class="backlc">
-        <div class="boxlc box-backlc">
-          <form action="login.php">
-            <legend>Cadastro</legend>
-            <label for="nome">Nome Completo: <input type="text" name="nome" id="nome" checked></label>
-            <label for="email">E-mail: <input type="email" name="email" id="email" checked></label>
-            <label for="senha">Senha<input type="password" name="senha" id="senha"></label>
-
-            <input type="button" value="Entrar">
-          </form>
-        </div>
-      </div>
-      
     </div>
 
-  </div>
+    <h1 class="prod">Este projeto está em fase de produção....</h1>
 
-<script>
+    <section class="corpo">
+      <div class="selecao">
+        <input
+          type="radio"
+          id="div1"
+          class="rd"
+          name="consulta[]"
+          value="1"
+          required />
+        <label for="div1" class="slogin">Login</label>
 
-   let radio = document.querySelectorAll(".rd");
+        <input
+          type="radio"
+          id="div2"
+          class="rd"
+          name="consulta[]"
+          value="2"
+          required />
+        <label for="div2" class="slogin"> Cadastro </label>
+      </div>
 
- for(let i = 0; i < radio.length; i++) {
+      <div class="flip-containerlc">
+        <div class="flipperlc">
+          <div id="ediv1" class="onOff" class="frontlc">
+            <div id="box1" class="boxlc box-frontlc">
+              <form method="post" name="dados">
+                <legend>Login</legend>
+                <label for="email" class="email"
+                  >E-mail:
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="name@email.com"
+                    required
+                /></label>
+                <label for="senha" class="senha"
+                  >Senha:
+                  <input type="password" name="senha" id="senha" required
+                /></label>
+                <div class="pbotao">
+                  <input
+                    type="submit"
+                    value="Entrar"
+                    class="botaolc"
+                    name="acao" />
+                </div>
 
-    radio[i].onclick = function(){
-       let div = document.querySelectorAll('.onOff');
-       for(let i = 0; i < div.length; i++) div[i].style.display = 'none';
-       document.getElementById('e' + radio[i].id).style.display = "block";
-    }
-}
+                <p class="esqueci">
+                  <a href="#">Esqueceu a senha? Clique aqui!</a>
+                </p>
+              </form>
+            </div>
+          </div>
 
+          <div id="ediv2" class="onOff" style="display: none" class="backlc">
+            <div class="boxlc box-backlc">
+              <form method="post" name="dados">
+                <legend>Cadastro</legend>
+                <label for="nome" class="nome"
+                  >Nome:
+                  <input
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    size="52"
+                    maxlength="150"
+                    required
+                /></label>
+                <label for="email" class="email"
+                  >E-mail:
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="name@email.com"
+                    required
+                /></label>
+                <label for="senha" class="senha"
+                  >Senha:
+                  <input type="password" name="senha" id="senha" required
+                /></label>
 
+                <div class="pbotao">
+                  <input
+                    type="submit"
+                    value="Cadastrar"
+                    class="botaolc"
+                    name="acao" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
-</script> 
+      <p class="return">
+        Retornar para a
+        <a href="index.html" target="_self"> Página Principal</a>
+      </p>
+    </section>
 
+    <footer class="rodapelc">
+      <p>
+        &copy Ruth Santana |
+        <a href="https://www.linkedin.com/in/ruthsantana" target="_blank"
+          >LinkedIn</a
+        >
+      </p>
+    </footer>
 
-	
-	<!-- Aprendendooooooooo
+    <script>
+      let radio = document.querySelectorAll(".rd");
+
+      for (let i = 0; i < radio.length; i++) {
+        radio[i].onclick = function () {
+          let div = document.querySelectorAll(".onOff");
+          for (let i = 0; i < div.length; i++) div[i].style.display = "none";
+          document.getElementById("e" + radio[i].id).style.display = "block";
+        };
+      }
+    </script>
+
+    <!-- Aprendendooooooooo
 		<img src="img.png" class="" id="img" alt="Teste" />
 		Aqui você carrega a imagem de sua escolha 
 		<br />

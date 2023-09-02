@@ -7,7 +7,6 @@
   font-style: normal;
 }
 
-
 @keyframes appear {
   0% {
     transform: translate(-50%, -50%) scale(0);
@@ -15,7 +14,7 @@
   }
   45% {
     transform: translate(-50%, -50%) scale(1.4);
-    background-color: rgba(0, 0, 0, 0.671);
+    background-color: #ffffffce(0, 0, 0, 0.671);
   }
   50% {
     transform: translate(-50%, -50%) scale(1.5);
@@ -29,41 +28,61 @@
     background-color: #df6f0e;
   }
 }
+.prod {
+  margin-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 1em;
+}
+.paglogin {
+  text-align: center;
+}
+.paglogin img {
+  margin-top: 15px;
+  width: 88px;
+  height: 100px;
+}
 
 #div1,
 #div2 {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 40px;
+  margin-right: 9px;
   border-style: none;
-  width: 30px;
   cursor: pointer;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
 }
 
 .selecao {
-  margin-top: 20px;
   display: flex;
-  padding: 3em;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1em;
+  margin-top: 30px;
 }
 .slogin {
   cursor: pointer;
-  font-family: "Beach";
-  font-size: 1.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.541);
+  margin-top: 8px;
 }
+
 .slogin:hover {
   color: #df6f0e;
+  transition: all 0.4s ease-in;
 }
 
 input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
-  border: 3px solid #fff;
   border-radius: 50%;
   margin-right: 10px;
   background-color: transparent;
   position: relative;
-  top: 6px;
+  top: 0px;
 }
 
 input[type="radio"]:checked::before {
@@ -78,16 +97,15 @@ input[type="radio"]:checked::before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: appear 0.8s;
+  animation: appear 0.6s;
 }
 
 .flip-containerlc,
 .frontlc,
 .backlc {
-  visibility: visible;
   margin-top: 20px;
   height: 500px;
-  width: 400px;
+  width: 370px;
   background-color: transparent;
 }
 
@@ -106,64 +124,112 @@ input[type="radio"]:checked::before {
 
 .boxlc {
   height: 500px;
-  width: 400px;
+  width: 370px;
   cursor: pointer;
   border-radius: 20px;
 }
 
-.box-frontlc {
-  background-color: rgba(245, 245, 245, 0.719);
+form {
+  height: 500px;
+  width: 370px;
 }
 
-.box-frontlc h1 {
-  font-size: 1.5em;
-  margin-top: 10px;
-  font-family: "Beach";
-  text-align: center;
+.box-frontlc,
+.box-backlc {
+  background-color: rgba(245, 245, 245, 0.445);
 }
-.box-frontlc h2 {
+
+legend {
   font-family: "Beach";
+  font-size: 3em;
   text-align: center;
+  padding: 20px;
+}
+
+label.email,
+.senha,
+.nome {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1em;
+  display: block;
+  padding: 18px;
 }
+#email,
+#senha,
+#nome {
+  width: 240px;
+  margin-left: 5px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .box-frontlc p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: justify;
+  text-align: center;
   padding: 10px;
   font-size: 0.7em;
-}
-.box-frontlc .valor {
-  text-align: center;
-  font-size: 0.8em;
-  font-weight: bolder;
-  margin-bottom: -30px;
-}
-.box-frontlc .preco {
-  text-align: center;
-  font-size: 1em;
+  margin-top: 10px;
 }
 
-.box-frontlc .obs {
-  font-family: "Beach";
-  text-align: center;
-  font-size: 0.8em;
-  margin-top: -15px;
+.esqueci a {
+  color: black;
+  text-decoration: none;
 }
 
-.box-backlc {
-  background: black url("../imagens/bonito.jpg") center center no-repeat fixed;
-  background-size: cover;
+.esqueci a:hover {
+  text-decoration: underline;
+}
+
+.pbotao {
   text-align: center;
+  margin-top: 30px;
 }
 
 .botaolc {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1em;
   background-color: #df6f0e;
-  font-weight: bolder;
+  font-weight: bold;
   padding: 20px;
-  margin-top: 300px;
+  width: 200px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
   border-color: transparent;
-  text-align: center;
   cursor: pointer;
+}
+.botaolc:hover {
+  background-color: rgba(0, 0, 0, 0.753);
+  color: #fff;
+  transition: all 0.5s ease-in;
+}
+
+.return {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #fff;
+}
+.return a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.return a:hover {
+  text-decoration: underline;
+}
+
+.rodapelc {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 160px;
+  margin-bottom: 70px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  text-decoration: underline;
 }
