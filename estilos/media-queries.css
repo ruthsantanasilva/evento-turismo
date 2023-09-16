@@ -24,6 +24,25 @@
     top: 5%;
   }
 
+  .box-front h2 {
+    font-size: 1.2em;
+  }
+  .box-front p {
+    font-size: 0.8em;
+    padding: 15px;
+  }
+  .box-front .valor {
+    font-size: 0.8em;
+    margin-bottom: -60px;
+  }
+  .box-front .preco {
+    font-size: 1.2em;
+  }
+
+  .box-front .obs {
+    font-size: 1em;
+  }
+
   .rodape {
     margin-top: 1250px;
   }
@@ -71,11 +90,8 @@
     top: 3%;
   }
 
-  .box-front h1 {
-    font-size: 2.2em;
-  }
   .box-front h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .box-front p {
     font-size: 0.8em;
@@ -86,7 +102,7 @@
     margin-bottom: -50px;
   }
   .box-front .preco {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .box-front .obs {
@@ -106,7 +122,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1290px) {
   body {
-    height: 115vh;
+    height: 100vh;
   }
   header img {
     margin-left: 40px;
@@ -142,7 +158,7 @@
     width: 100%;
   }
   .flip-container {
-    margin-top: 35%;
+    margin-top: 36%;
     margin-right: 10%;
     width: 100%;
     height: 100%;
@@ -164,9 +180,6 @@
     width: 100%;
   }
 
-  .box-front h1 {
-    font-size: 2em;
-  }
   .box-front h2 {
     font-size: 1.5em;
   }
@@ -180,7 +193,7 @@
   }
   .box-front .preco {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .box-front .obs {
@@ -196,13 +209,13 @@
   }
 
   .rodape {
-    margin-top: 380px;
+    margin-top: 448px;
   }
 }
 
 @media screen and (min-width: 1290px) {
   body {
-    height: 120vh;
+    height: 100vh;
   }
 
   header img {
@@ -260,9 +273,6 @@
     width: 100%;
   }
 
-  .box-front h1 {
-    font-size: 2em;
-  }
   .box-front h2 {
     font-size: 1.8em;
   }
@@ -271,24 +281,24 @@
     padding: 10px;
   }
   .box-front .valor {
-    font-size: 0.8em;
-    margin-bottom: -40px;
+    font-size: 1em;
+    margin-bottom: -30px;
   }
   .box-front .preco {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2em;
   }
 
   .box-front .obs {
     font-family: "Beach";
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .botao {
-    padding: 20px;
+    padding: 30px;
     margin-top: 350px;
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .rodape {
