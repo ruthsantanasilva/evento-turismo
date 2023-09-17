@@ -88,7 +88,7 @@ nav ul li a:hover {
 .formviagem {
   padding: 10px;
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 legend {
   font-family: "Beach";
@@ -108,8 +108,7 @@ input.origem,
 #origem,
 #destino,
 #data {
-  width: 400px;
-  margin-left: 5px;
+  width: 290px;
   border-color: rgba(0, 0, 0, 0.199);
   padding: 10px;
   border-radius: 10px;
