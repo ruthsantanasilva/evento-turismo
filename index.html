@@ -23,28 +23,53 @@
         <legend>Pacotes de viagem</legend>
         <p>Voo + Hospedagem + Passeios</p>
         <p>
-          <input
-            type="text"
+          <input list="origem"
             name="origem"
-            id="origem"
             class="origem"
             placeholder="ORIGEM" />
+            <datalist id="origem">
+              <option value="São Paulo"></option>
+              <option value="Bonito - Mato Grosso do Sul"></option>
+              <option value="Brasília - DF"></option>
+              <option value="Porto Seguro - Bahia"></option>
+              <option value="Nova Iorque - EUA"></option>
+              <option value="Roma - Itália"></option>
+            </datalist> 
+        </p>
+        <p>
+          <input list="destino"
+            name="destino"
+            class="destino"
+            placeholder="DESTINO" />
+            <datalist id="destino">
+              <option value="São Paulo"></option>
+              <option value="Bonito - Mato Grosso do Sul"></option>
+              <option value="Brasília - DF"></option>
+              <option value="Porto Seguro - Bahia"></option>
+              <option value="Nova Iorque - EUA"></option>
+              <option value="Roma - Itália"></option>
+            </datalist> 
         </p>
         <p>
           <input
             type="text"
-            name="destino"
-            id="destino"
-            class="destino"
-            placeholder="DESTINO" />
-        </p>
-        <p>
-          <input
-            type="date"
             name="data"
             id="data"
             class="data"
-            placeholder="DATAS" />
+            placeholder="DATA IDA" 
+            onfocus="(this.type='date')"
+            onblur="(this.type='text')"     
+          />
+        </p>
+        <p>
+          <input
+            type="text"
+            name="data"
+            id="data"
+            class="data"
+            placeholder="DATA VOLTA"
+            onfocus="(this.type='date')"
+            onblur="(this.type='text')"   />
         </p>
         <a href="paginadecompra.html" target="_self"
           ><p>

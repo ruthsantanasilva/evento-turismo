@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (min-width: 540px) and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 768px) {
   nav img {
     margin-left: 10px;
     margin-top: 15px;
@@ -24,8 +24,8 @@
     display: inline-block;
   }
 
-  #origem,
-  #destino,
+  .origem,
+  .destino,
   #data {
     width: 400px;
   }
@@ -112,34 +112,20 @@
     font-size: 2.5em;
   }
 
-  .containerform {
-    height: 265px;
-    margin: 10px;
-    margin-top: 20px;
-  }
-
   .formviagem {
-    padding: 10px;
     display: block;
-    margin-left: 100px;
   }
 
-  #origem,
-  #destino,
+  input.origem,
+  .destino,
+  .data {
+    display: inline-block;
+  }
+
+  .origem,
+  .destino,
   #data {
-    float: left;
-    width: 180px;
-    margin-left: 20px;
-    margin-top: 20px;
-  }
-
-  .formviagem p {
-    margin-top: 10px;
-  }
-
-  .botaoform {
-    margin-top: 18px;
-    width: 200px;
+    width: 450px;
   }
 
   .flip-container,
@@ -249,8 +235,8 @@
     margin-left: 100px;
   }
 
-  #origem,
-  #destino,
+  .origem,
+  .destino,
   #data {
     float: left;
     width: 200px;
@@ -401,7 +387,7 @@
     height: 170px;
   }
 
-  input.origem,
+  /*input.origem,
   .destino,
   .data {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -409,7 +395,7 @@
     font-size: 1.2em;
     display: inline-block;
     padding: 30px;
-  }
+  }*/
 
   .containerform {
     height: 250px;
@@ -423,9 +409,14 @@
     margin-left: 60px;
   }
 
-  #origem,
-  #destino,
+  .origem,
+  .destino,
   #data {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 18px;
     float: left;
     width: 250px;
     margin-left: 25px;

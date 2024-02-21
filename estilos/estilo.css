@@ -16,7 +16,8 @@ body {
   width: 100%;
   height: 100%;
   /*background: linear-gradient(90deg, #E25822 0%, #c67700cb 100%);*/
-  background: linear-gradient(90deg, #f28444 0%, #6b17bf 100%);
+  /*background: linear-gradient(90deg, #f28444 0%, #6b17bf 100%);*/
+  background: #d8d7d6;
 }
 
 .prod {
@@ -63,13 +64,13 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background-color: white;
+  background-color: #fff;
   color: #881df2;
   transition: 0.6s;
 }
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 nav ul li a:hover {
   text-decoration: none;
@@ -78,8 +79,9 @@ nav ul li a:hover {
 }
 
 .containerform {
-  background-color: #d672f27e;
-  height: 330px;
+  background-color: #f28444b0;
+  box-shadow: 5px 5px 20px #a9a9ac;
+  height: 340px;
   border-radius: 20px;
   margin: 10px;
   margin-top: 50px;
@@ -89,26 +91,24 @@ nav ul li a:hover {
   padding: 10px;
   display: inline-block;
   margin-left: 5px;
+  color: #fff;
 }
 legend {
   font-family: "Beach";
-  font-size: 1.6em;
-  color: #fff;
+  font-size: 2em;
+  color: #881df2;
   text-align: center;
 }
 
-input.origem,
 .destino,
-.data {
+.data,
+.origem,
+#data {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1em;
   display: inline-block;
   padding: 5px;
-}
-#origem,
-#destino,
-#data {
-  width: 290px;
+  width: 400px;
   border-color: rgba(0, 0, 0, 0.199);
   padding: 10px;
   border-radius: 10px;
@@ -123,12 +123,13 @@ input.origem,
 
 .botaoform {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   background-color: #f28444;
   font-weight: bold;
   padding: 15px;
   width: 150px;
   border-radius: 10px;
+  margin-top: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
   border-color: transparent;
   cursor: pointer;
@@ -148,8 +149,9 @@ header {
 header h1 {
   font-family: "Beach";
   text-align: center;
-  font-size: 2em;
-  color: white;
+  font-size: 2.2em;
+  color: #df7e0f;
+  /*color: #881df2;*/
 }
 
 h2 {
