@@ -144,12 +144,12 @@ form {
   background-color: rgba(245, 245, 245, 0.767);
 }
 
-legend {
+#titulologin {
   font-family: "Beach";
   font-size: 3em;
-  text-align: center;
   padding: 20px;
   color: #f28444;
+  text-align: center;
 }
 
 label.email,
