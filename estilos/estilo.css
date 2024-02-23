@@ -34,9 +34,9 @@ section.corpo {
   justify-content: center;
 }
 
-nav img {
+#logo{
   margin-left: 6px;
-  margin-top: 15px;
+  margin-top: 10px;
   width: 150px;
   height: 70px;
 }

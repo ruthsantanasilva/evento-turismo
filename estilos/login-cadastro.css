@@ -108,8 +108,7 @@ input[type="radio"]:checked::before {
 .flip-containerlc,
 .frontlc,
 .backlc {
-  margin-top: -50px;
-  height: 500px;
+  height: 450px;
   width: 358px;
   background-color: transparent;
 }
@@ -128,7 +127,7 @@ input[type="radio"]:checked::before {
 }
 
 .boxlc {
-  height: 500px;
+  height: 450px;
   width: 358px;
   cursor: pointer;
   border-radius: 20px;
@@ -158,7 +157,7 @@ label.email,
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1em;
   display: block;
-  padding: 18px;
+  padding: 16px;
 }
 #email,
 #senha,
@@ -166,7 +165,7 @@ label.email,
   width: 220px;
   margin-left: 5px;
   border-color: rgba(0, 0, 0, 0.199);
-  padding: 20px;
+  padding: 16px;
   border-radius: 10px;
 }
 
@@ -189,7 +188,7 @@ label.email,
 
 .pbotao {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .botaolc {
@@ -212,7 +211,7 @@ label.email,
 
 .return {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-top: 100px;
+  margin-top: 30px;
   font-size: 0.8em;
   color: black;
 }
