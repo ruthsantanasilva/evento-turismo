@@ -50,27 +50,30 @@ header table {
   height: 55px;
   width: 100%;
   margin-top: -10px;
+  border-left: #a9a9ac;
+ 
 }
 
 header table tr {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 10px;
-  font-size: small;
+  font-size: 14px;
   font-weight: bold;
 }
 
 #central {
-  width: 250px;
+  width: 230px;
+  font-size: 10px;
 }
+
 #rede1,
 #rede2,
 #rede3 {
-  width: ;
+  width: 25px;
 }
 table tr td {
-  width: 200px;
+  width: 180px;
 }
-
 
 #user {
   width: 20px;
@@ -107,6 +110,11 @@ nav ul li:hover {
   width: 20px;
   height: 20px;
   margin-top: 5px;
+}
+
+#entre{
+  width: 200px;
+  margin-top: 20px;
 }
 
 nav ul {
