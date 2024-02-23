@@ -9,10 +9,34 @@
   </head>
 
   <body>
+    <header>
+      <table>
+        <tr>
+          <td>travelgo@travelgo.com.br</td>
+          <td id="central">Central de atendimento: (61) 3333-3333</td>
+          <td id="rede1">
+            <img src="imagens/user.png" alt="user" id="user" />
+          </td>
+          <td id="rede2">
+            <img src="imagens/user.png" alt="user" id="user" />
+          </td>
+          <td id="rede3">
+            <img src="imagens/user.png" alt="user" id="user" />
+          </td>
+        </tr>
+      </table>
+    </header>
+
     <nav>
-      <img src="imagens/logo.png" alt="fotodalogo" id="logo"/>
+      <img src="imagens/logo.png" alt="fotodalogo" id="logo" />
       <ul>
-        <li><img src="imagens/user.png" alt="user" id="user"/><a href="paginadecompra.html" target="_self"> Entre ou Cadastre-se</a></li>
+        <li>
+          <img src="imagens/user.png" alt="user" id="user" /><a
+            href="paginadecompra.html"
+            target="_self">
+            Entre ou Cadastre-se</a
+          >
+        </li>
       </ul>
     </nav>
 
@@ -22,32 +46,34 @@
         <legend id="titulopacote">Pacotes de viagem</legend>
         <p>Voo + Hospedagem + Passeios</p>
         <p>
-          <input list="origem"
+          <input
+            list="origem"
             name="origem"
             class="origem"
             placeholder="ORIGEM" />
-            <datalist id="origem">
-              <option value="São Paulo"></option>
-              <option value="Bonito - Mato Grosso do Sul"></option>
-              <option value="Brasília - DF"></option>
-              <option value="Porto Seguro - Bahia"></option>
-              <option value="Nova Iorque - EUA"></option>
-              <option value="Roma - Itália"></option>
-            </datalist> 
+          <datalist id="origem">
+            <option value="São Paulo"></option>
+            <option value="Bonito - Mato Grosso do Sul"></option>
+            <option value="Brasília - DF"></option>
+            <option value="Porto Seguro - Bahia"></option>
+            <option value="Nova Iorque - EUA"></option>
+            <option value="Roma - Itália"></option>
+          </datalist>
         </p>
         <p>
-          <input list="destino"
+          <input
+            list="destino"
             name="destino"
             class="destino"
             placeholder="DESTINO" />
-            <datalist id="destino">
-              <option value="São Paulo"></option>
-              <option value="Bonito - Mato Grosso do Sul"></option>
-              <option value="Brasília - DF"></option>
-              <option value="Porto Seguro - Bahia"></option>
-              <option value="Nova Iorque - EUA"></option>
-              <option value="Roma - Itália"></option>
-            </datalist> 
+          <datalist id="destino">
+            <option value="São Paulo"></option>
+            <option value="Bonito - Mato Grosso do Sul"></option>
+            <option value="Brasília - DF"></option>
+            <option value="Porto Seguro - Bahia"></option>
+            <option value="Nova Iorque - EUA"></option>
+            <option value="Roma - Itália"></option>
+          </datalist>
         </p>
         <p>
           <input
@@ -55,10 +81,9 @@
             name="data"
             id="data"
             class="data"
-            placeholder="DATA IDA" 
+            placeholder="DATA IDA"
             onfocus="(this.type='date')"
-            onblur="(this.type='text')"     
-          />
+            onblur="(this.type='text')" />
         </p>
         <p>
           <input
@@ -68,7 +93,7 @@
             class="data"
             placeholder="DATA VOLTA"
             onfocus="(this.type='date')"
-            onblur="(this.type='text')"   />
+            onblur="(this.type='text')" />
         </p>
         <a href="paginadecompra.html" target="_self"
           ><p>
