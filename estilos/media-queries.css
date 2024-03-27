@@ -1,18 +1,6 @@
 @charset "utf-8";
 
 @media screen and (min-width: 414px) and (max-width: 768px) {
-  nav img {
-    margin-left: 10px;
-    margin-top: 15px;
-    width: 150px;
-    height: 80px;
-  }
-
-  nav ul li {
-    width: 120px;
-    padding: 15px;
-    font-size: 1em;
-  }
 
   .formviagem {
     display: block;
@@ -77,47 +65,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  nav img {
-    margin-left: 10px;
-    margin-top: 15px;
-    width: 150px;
-    height: 80px;
-  }
-
-  nav ul li {
-    width: 120px;
-    padding: 15px;
-    font-size: 1em;
-  }
-
-  header img {
-    margin-left: 35px;
-    margin-top: 15px;
-    width: 80px;
-    height: 88px;
-  }
-
-  ul li {
-    width: 185px;
-    padding: 15px;
-  }
-
-  ul {
-    margin-top: -60px;
-    margin-right: 10px;
-  }
-
-  header h1 {
-    margin-top: 20px;
-    font-size: 2.5em;
-  }
-
-  .containerform {
-    background-color: #df6f0e;
-    box-shadow: 5px 5px 20px #a9a9ac;
-    height: 480px;
-    margin-top: -85px;
-  }
 
   .formviagem {
     display: block;
@@ -186,42 +133,14 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1290px) {
-  nav img {
-    margin-left: 15px;
-    margin-top: 15px;
-    width: 180px;
-    height: 90px;
-  }
 
-  nav ul li {
-    width: 120px;
-    padding: 15px;
-    font-size: 1em;
-  }
 
   body {
     height: 100vh;
   }
-  header img {
-    margin-left: 40px;
-    margin-top: 20px;
-    width: 80px;
-    height: 88px;
-  }
 
-  ul li {
-    width: 185px;
-    padding: 15px;
-  }
-
-  ul {
-    margin-top: -60px;
-    margin-right: 10px;
-  }
-
-  header h1 {
-    margin-top: 20px;
-    font-size: 2.5em;
+  .containerform {
+    height: 300px;
   }
 
   section.corpo {
@@ -231,10 +150,6 @@
     justify-content: center;
   }
 
-  .containerform {
-    height: 480px;
-    margin-top: -100px;
-  }
 
   .formviagem {
     padding: 10px;
@@ -343,41 +258,9 @@
 }
 
 @media screen and (min-width: 1290px) {
-  nav img {
-    margin-left: 20px;
-    width: 200px;
-    height: 100px;
-  }
-
-  nav ul li {
-    width: 120px;
-    padding: 15px;
-    font-size: 1em;
-  }
-
+  
   body {
     height: 100vh;
-  }
-
-  header img {
-    margin-left: 40px;
-    margin-top: 20px;
-    width: 80px;
-    height: 88px;
-  }
-
-  ul li {
-    width: 185px;
-    padding: 15px;
-  }
-
-  ul {
-    margin-top: -60px;
-    margin-right: 10px;
-  }
-
-  header h1 {
-    font-size: 3em;
   }
 
   section.corpo {
@@ -395,27 +278,26 @@
   }
 
   .containerform {
-    height: 480px;
-    margin-top: -100px;
+    height: 280px;
   }
 
   .formviagem {
     padding: 10px;
     display: block;
-    margin-left: 60px;
+    margin-left: 70px;
   }
 
   .origem,
   .destino,
   #data {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
+      sans-serif;
     font-size: 1.2em;
     display: inline-block;
-    padding: 18px;
+    padding: 12px;
     float: left;
     width: 250px;
-    margin-left: 25px;
+    margin-left: 30px;
     margin-top: 20px;
   }
 
