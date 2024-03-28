@@ -47,6 +47,13 @@ section.corpo2 {
   justify-content: center;
 }
 
+section.corpo3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #logo {
   margin-left: 50px;
   width: 135px;
@@ -141,7 +148,7 @@ nav ul li a:hover {
 }
 .containerform {
   background: linear-gradient(180deg, #D672F2 0%, #e2dbcfcb 100%);
-  height: 450px;
+  height: 380px;
   width: 100%;
   text-align: center;
 }
@@ -226,7 +233,6 @@ header h1 {
   text-align: center;
   font-size: 2.2em;
   color: #0D0D0D;
-  /*color: #881df2;*/
 }
 
 h2 {
@@ -235,8 +241,24 @@ h2 {
   font-size: 1.5em;
 }
 
+/* PRIMEIRO PACOTE */
+
 .flip-container:hover .flipper,
-.flip-container.hover .flipper {
+.flip-container.hover .flipper, 
+.flip-container2:hover .flipper2,
+.flip-container2.hover .flipper2,
+.flip-container3:hover .flipper3,
+.flip-container3.hover .flipper3,
+.flip-container4:hover .flipper4,
+.flip-container4.hover .flipper4,
+.flip-container5:hover .flipper5,
+.flip-container5.hover .flipper5,
+.flip-container6:hover .flipper6,
+.flip-container6.hover .flipper6,
+.flip-container7:hover .flipper7,
+.flip-container7.hover .flipper7,
+.flip-container8:hover .flipper8,
+.flip-container8.hover .flipper8  {
   transform: rotateY(180deg);
 }
 
@@ -361,12 +383,18 @@ h2 {
 
 /*Segundo pacote*/
 
-.flip-container2:hover .flipper2,
-.flip-container2.hover .flipper2 {
-  transform: rotateY(180deg);
-}
-
-.flip-container2 {
+.flip-container2,
+.flip-container3,
+.flip-container4,
+.flip-container5,
+.flip-container6,
+.flip-container7,
+.flip-container8,
+.flip-container9,
+.flip-container10,
+.flip-container11,
+.flip-container12
+ {
   height: 385px;
   width: 330px;
   background-color: transparent;
@@ -396,17 +424,6 @@ h2 {
 
 /*Terceiro pacote*/
 
-.flip-container3:hover .flipper3,
-.flip-container3.hover .flipper3 {
-  transform: rotateY(180deg);
-}
-
-.flip-container3 {
-  height: 385px;
-  width: 330px;
-  background-color: transparent;
-}
-
 .flipper3 {
   top: 17%;
   position: relative;
@@ -430,17 +447,6 @@ h2 {
 }
 
 /*Quarto pacote*/
-
-.flip-container4:hover .flipper4,
-.flip-container4.hover .flipper4 {
-  transform: rotateY(180deg);
-}
-
-.flip-container4 {
-  height: 385px;
-  width: 330px;
-  background-color: transparent;
-}
 
 .flipper4 {
   top: 26%;
@@ -466,19 +472,8 @@ h2 {
 
 /*Quinto pacote*/
 
-.flip-container5:hover .flipper5,
-.flip-container5.hover .flipper5 {
-  transform: rotateY(180deg);
-}
-
-.flip-container5 {
-  height: 385px;
-  width: 330px;
-  background-color: transparent;
-}
-
 .flipper5 {
-  top: 27%;
+  top: 35%;
   position: relative;
   width: 100%;
   height: 100%;
@@ -487,13 +482,13 @@ h2 {
 }
 
 .box-back5 {
-  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background: black url("../imagens/saopaulo.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
 
 .imgbox5 {
-  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background: black url("../imagens/saopaulo.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
@@ -501,19 +496,8 @@ h2 {
 
 /*Sexto pacote*/
 
-.flip-container6:hover .flipper6,
-.flip-container6.hover .flipper6 {
-  transform: rotateY(180deg);
-}
-
-.flip-container6 {
-  height: 385px;
-  width: 330px;
-  background-color: transparent;
-}
-
 .flipper6 {
-  top: 26%;
+  top: 44%;
   position: relative;
   width: 100%;
   height: 100%;
@@ -522,13 +506,13 @@ h2 {
 }
 
 .box-back6 {
-  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background: black url("../imagens/salvador.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
 
 .imgbox6 {
-  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background: black url("../imagens/salvador.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
@@ -536,19 +520,8 @@ h2 {
 
 /*Sétimo pacote*/
 
-.flip-container7:hover .flipper7,
-.flip-container7.hover .flipper7 {
-  transform: rotateY(180deg);
-}
-
-.flip-container7 {
-  height: 385px;
-  width: 330px;
-  background-color: transparent;
-}
-
 .flipper7 {
-  top: 26%;
+  top: 53%;
   position: relative;
   width: 100%;
   height: 100%;
@@ -557,13 +530,13 @@ h2 {
 }
 
 .box-back7 {
-  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background: black url("../imagens/japao.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
 
 .imgbox7 {
-  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background: black url("../imagens/japao.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
@@ -571,19 +544,8 @@ h2 {
 
 /*Oitavo pacote*/
 
-.flip-container8:hover .flipper8,
-.flip-container8.hover .flipper8 {
-  transform: rotateY(180deg);
-}
-
-.flip-container8 {
-  height: 385px;
-  width: 330px;
-  background-color: transparent;
-}
-
 .flipper8 {
-  top: 26%;
+  top: 62%;
   position: relative;
   width: 100%;
   height: 100%;
@@ -592,17 +554,21 @@ h2 {
 }
 
 .box-back8 {
-  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background: black url("../imagens/riodejaneiro.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
 
 .imgbox8 {
-  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background: black url("../imagens/riodejaneiro.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
 }
+
+/*Nono pacote*/
+
+
 
 .botaoreserva {
   display: flex;
@@ -639,13 +605,30 @@ h2 {
   transform: translateY(-6px);
 }
 
-
 #tituloopinioes{
-  margin-top: 50px;
-  font-family: "Beach";
+  font-family: 'beach';
+  margin-top: 30px;
   text-align: center;
-  font-size: 2em;
-  color: #0D0D0D;
+  font-size: 1.8em;
+}
+.box-front3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tituloavaliacao{
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#subtituloop{
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.8em;
+}
+
+.txtavaliacao{
+  margin-top: 20px;
+  font-size: 0.6em;
 }
 
 .fundo {
