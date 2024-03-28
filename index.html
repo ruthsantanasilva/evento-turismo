@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <img src="imagens/logo.png" alt="fotodalogo" id="logo" />
+    <a href="index.html" target="_self"><img src="imagens/logo.png" alt="fotodalogo" id="logo" /></a>
     
     <header>
       <table>
@@ -32,26 +32,22 @@
     <nav>
       <ul>
         <li id="entre">
-          <img src="imagens/user.png" alt="user" id="user" /><a
-            href="paginadecompra.html"
-            target="_self">
-            Entre ou Cadastre-se</a
-          >
+          <a href="paginadecompra.html" target="_self">
+            <img src="imagens/user.png" alt="user" id="userentre" /></a>
         </li>
       </ul>
     </nav>
     <!--<h1 class="prod">Este projeto está em fase de produção....</h1>-->
     <nav class="containerform">
+      <legend id="titulopacote">Realize um sonho com nossos pacotes de viagem</legend>
+        <p id="subtitulo">Voo + Hospedagem + Passeios</p>
       <form class="formviagem">
-      
-        <legend id="titulopacote">Pacotes de viagem</legend>
-        <p>Voo + Hospedagem + Passeios</p>
         <p>
           <input
             list="origem"
             name="origem"
             class="origem"
-            placeholder="ORIGEM" />
+            placeholder="Origem" />
           <datalist id="origem">
             <option value="São Paulo"></option>
             <option value="Bonito - Mato Grosso do Sul"></option>
@@ -66,7 +62,7 @@
             list="destino"
             name="destino"
             class="destino"
-            placeholder="DESTINO" />
+            placeholder="Destino" />
           <datalist id="destino">
             <option value="São Paulo"></option>
             <option value="Bonito - Mato Grosso do Sul"></option>
@@ -82,7 +78,7 @@
             name="data"
             id="data"
             class="data"
-            placeholder="DATA IDA"
+            placeholder="Ida"
             onfocus="(this.type='date')"
             onblur="(this.type='text')" />
         </p>
@@ -92,7 +88,7 @@
             name="data"
             id="data"
             class="data"
-            placeholder="DATA VOLTA"
+            placeholder="Volta"
             onfocus="(this.type='date')"
             onblur="(this.type='text')" />
         </p>
@@ -106,8 +102,10 @@
         ></a>
       </form>
     </nav>
-    <header><h1>Confira nossos pacotes promocionais!</h1></header>
 
+    <header><h1>Confira nossos pacotes promocionais</h1>
+      <div id="linha-horizontal"></div></header>
+  
     <section class="corpo">
       <div class="flip-container">
         <div class="flipper">
@@ -239,7 +237,145 @@
             </div>
           </div>
         </div>
+      </div> 
+
+     </section>
+
+     <section class="corpo2">
+
+      <div class="flip-container5">
+        <div class="flipper5">
+          <div class="front">
+            <div class="box box-front">
+              <a href="paginadecompra.html" target="_self">
+                <p class="imgbox5"></p>
+                <h2>Bonito - Mato Grosso do Sul / Pacote 2024</h2>
+                <p>5 dias / 4 noites</p>
+                <p>Saindo de Brasília</p>
+                <p>Hotel + Aéreo + Passeios</p>
+                <p class="valor">Valor final por pessoa</p>
+                <p></p>
+                <p class="preco">R$ 0,00</p>
+                <p class="obs">Em até 10x sem juros no cartão de crédito!</p>
+                <p class="taxas">Taxas e impostos inclusos</p>
+              </a>
+            </div>
+          </div>
+          <div class="back">
+            <div class="box box-back5">
+              <a href="paginadecompra.html" target="_self"
+                ><p>
+                  <input
+                    type="button"
+                    value="Comprar Agora!"
+                    id="botao"
+                    class="botao" /></p
+              ></a>
+            </div>
+          </div>
+        </div>
       </div>
+
+
+      <div class="flip-container6">
+        <div class="flipper6">
+          <div class="front">
+            <div class="box box-front">
+              <a href="paginadecompra.html" target="_self">
+                <p class="imgbox6"></p>
+                <h2>Porto Seguro - Bahia / Pacote 2024</h2>
+                <p>5 dias / 4 noites</p>
+                <p>Saindo de Brasília</p>
+                <p>Hotel + Aéreo + Passeios</p>
+                <p class="valor">Valor final por pessoa</p>
+                <p></p>
+                <p class="preco">R$ 0,00</p>
+                <p class="obs">Em até 10x sem juros no cartão de crédito!</p>
+                <p class="taxas">Taxas e impostos inclusos</p>
+              </a>
+            </div>
+          </div>
+          <div class="back">
+            <div class="box box-back6">
+              <a href="paginadecompra.html" target="_self"
+                ><p>
+                  <input
+                    type="button"
+                    value="Comprar Agora!"
+                    id="botao"
+                    class="botao" /></p
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-container7">
+        <div class="flipper7">
+          <div class="front">
+            <div class="box box-front">
+              <a href="paginadecompra.html" target="_self">
+                <p class="imgbox7"></p>
+                <h2>Nova Iorque - EUA / Pacote 2024</h2>
+                <p>5 dias / 4 noites</p>
+                <p>Saindo de São Paulo</p>
+                <p>Hotel + Aéreo + Passeios</p>
+                <p class="valor">Valor final por pessoa</p>
+                <p></p>
+                <p class="preco">R$ 0,00</p>
+                <p class="obs">Em até 10x sem juros no cartão de crédito!</p>
+                <p class="taxas">Taxas e impostos inclusos</p>
+              </a>
+            </div>
+          </div>
+          <div class="back">
+            <div class="box box-back7">
+              <a href="paginadecompra.html" target="_self"
+                ><p>
+                  <input
+                    type="button"
+                    value="Comprar Agora!"
+                    id="botao"
+                    class="botao" /></p
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-container8">
+        <div class="flipper8">
+          <div class="front">
+            <div class="box box-front">
+              <a href="paginadecompra.html" target="_self">
+                <p class="imgbox8"></p>
+                <h2>Roma - Itália / Pacote 2024</h2>
+                <p>5 dias / 4 noites</p>
+                <p>Saindo de São Paulo</p>
+                <p>Hotel + Aéreo + Passeios</p>
+                <p class="valor">Valor final por pessoa</p>
+                <p></p>
+                <p class="preco">R$ 0,00</p>
+                <p class="obs">Em até 10x sem juros no cartão de crédito!</p>
+                <p class="taxas">Taxas e impostos inclusos</p>
+              </a>
+            </div>
+          </div>
+          <div class="back">
+            <div class="box box-back8">
+              <a href="paginadecompra.html" target="_self"
+                ><p>
+                  <input
+                    type="button"
+                    value="Comprar Agora!"
+                    id="botao"
+                    class="botao" /></p
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <div class="botaoreserva">
@@ -249,6 +385,9 @@
         </p>
       </a>
     </div>
+
+    <h1 id="tituloopinioes">A opinião dos nossos viajantes é sempre muito bem vinda</h1>
+    <div id="linha-horizontal"></div>
 <!--
     <div id="opinioes">
     <h1 id="tituloopinioes">Veja o que nossos viajantes acham</h1>

@@ -17,7 +17,7 @@ body {
   height: 100%;
   /*background: linear-gradient(90deg, #E25822 0%, #c67700cb 100%);*/
   /*background: linear-gradient(90deg, #f28444 0%, #6b17bf 100%);*/
-  background: #d8d7d6;
+  background: #d8d7d6c5;
 }
 
 .prod {
@@ -26,8 +26,21 @@ body {
   text-align: center;
   font-size: 1em;
 }
-
+#linha-horizontal {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 600px;
+  border: 1px solid #00000015;
+}
 section.corpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section.corpo2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,14 +95,19 @@ table tr td {
   height: 20px;
 }
 
+#userentre{
+  width: 30px;
+  height: 30px;
+}
+
 #entre{
-  width: 100px;
+  width: 20px;
+  height: 20px;
   margin-top: 5px;
- 
 }
 
 nav ul {
-  background-color: #D672F2;
+  background: #D672F2;
   text-align: right;
   width: 100%;
   color: #881df2;
@@ -122,21 +140,34 @@ nav ul li a:hover {
   transition: 0.6s;
 }
 .containerform {
-  background-color: #D672F2; /*#df6f0e;*/
-  height: 355px;
+  background: linear-gradient(180deg, #D672F2 0%, #e2dbcfcb 100%);
+  height: 450px;
   width: 100%;
+  text-align: center;
 }
 
 .formviagem {
   padding: 10px;
   display: inline-block;
   margin-left: 5px;
-  color: #fff;
+  margin-top: 10px;
+  color:#0D0D0D;
+  background-color: #fff;
+  width: 380px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
 }
 #titulopacote {
-  margin-top: 5px;
   font-family: "Beach";
   font-size: 2em;
+  color: #0D0D0D; /*#881df2;*/
+  text-align: center;
+}
+
+#subtitulo{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0.6em;
   color: #0D0D0D; /*#881df2;*/
   text-align: center;
 }
@@ -148,10 +179,14 @@ nav ul li a:hover {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1em;
   display: inline-block;
-  width: 350px;
-  border-color: rgba(0, 0, 0, 0.199);
-  padding: 5px;
-  border-radius: 3px;
+  width: 300px;
+  border-color: transparent;
+  color: #0D0D0D;
+  padding: 10px;
+  border-radius: 50px;
+  cursor:pointer;
+  border-color: rgba(240, 248, 255, 0.39);
+  font-weight: bolder;
 }
 
 .formviagem p {
@@ -163,12 +198,12 @@ nav ul li a:hover {
 
 .botaoform {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
   background-color: #f28444;
   font-weight: bold;
-  padding: 15px;
-  width: 150px;
-  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 50px;
   margin-top: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
   border-color: transparent;
@@ -429,6 +464,146 @@ h2 {
   border-radius: 20px 20px 0px 0px;
 }
 
+/*Quinto pacote*/
+
+.flip-container5:hover .flipper5,
+.flip-container5.hover .flipper5 {
+  transform: rotateY(180deg);
+}
+
+.flip-container5 {
+  height: 385px;
+  width: 330px;
+  background-color: transparent;
+}
+
+.flipper5 {
+  top: 27%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.box-back5 {
+  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.imgbox5 {
+  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background-size: cover;
+  height: 120px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/*Sexto pacote*/
+
+.flip-container6:hover .flipper6,
+.flip-container6.hover .flipper6 {
+  transform: rotateY(180deg);
+}
+
+.flip-container6 {
+  height: 385px;
+  width: 330px;
+  background-color: transparent;
+}
+
+.flipper6 {
+  top: 26%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.box-back6 {
+  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.imgbox6 {
+  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background-size: cover;
+  height: 120px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/*Sétimo pacote*/
+
+.flip-container7:hover .flipper7,
+.flip-container7.hover .flipper7 {
+  transform: rotateY(180deg);
+}
+
+.flip-container7 {
+  height: 385px;
+  width: 330px;
+  background-color: transparent;
+}
+
+.flipper7 {
+  top: 26%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.box-back7 {
+  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.imgbox7 {
+  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background-size: cover;
+  height: 120px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/*Oitavo pacote*/
+
+.flip-container8:hover .flipper8,
+.flip-container8.hover .flipper8 {
+  transform: rotateY(180deg);
+}
+
+.flip-container8 {
+  height: 385px;
+  width: 330px;
+  background-color: transparent;
+}
+
+.flipper8 {
+  top: 26%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.box-back8 {
+  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.imgbox8 {
+  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background-size: cover;
+  height: 120px;
+  border-radius: 20px 20px 0px 0px;
+}
+
 .botaoreserva {
   display: flex;
   align-items: center;
@@ -464,16 +639,12 @@ h2 {
   transform: translateY(-6px);
 }
 
-#opnioes{
-  margin-top: 100px;
-  height: 500px;
-  background-color: #fff;
-}
+
 #tituloopinioes{
   margin-top: 50px;
   font-family: "Beach";
-  margin-left: 50px;
-  font-size: 2.2em;
+  text-align: center;
+  font-size: 2em;
   color: #0D0D0D;
 }
 
