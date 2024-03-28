@@ -6,7 +6,7 @@
     visibility: hidden;
   }
 
-  .formviagem {
+  .formviagem{
     display: block;
   }
 
@@ -19,7 +19,7 @@
   .origem,
   .destino,
   #data {
-    width: 350px;
+    width: 330px;
   }
 
   .flip-container,
@@ -32,14 +32,20 @@
   .flip-container6,
   .flip-container7,
   .flip-container8,
-  .flip-container9,
-  .flip-container10,
-  .flip-container11,
-  .flip-container12,
   .box {
     margin-top: 10%;
     height: 500px;
-    width: 400px;
+    width: 350px;
+  }
+
+  .flip-container9,
+  .flip-container10,
+  .flip-container11,
+  .flip-container12 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 350px;
   }
 
   .flipper2,
@@ -80,7 +86,7 @@
   }
 
   .botaoreserva {
-    margin-top: 3%;
+    margin-top: 1%;
   }
 }
 
@@ -143,6 +149,59 @@
   .botaoform {
     width: 120px;
   }
+
+  /*-- EMAIL --*/
+
+
+  .containerformemail {
+    margin-top: 50px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #textemail{
+    float: left;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    padding: 10px;
+    border-color: #0D0D0D;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  #recebaofertas{
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+  }
+  .formemail {
+    padding: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 10px;
+    color:#0D0D0D;
+    background-color: #fff;
+    width: 800px; 
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+  }
+  #emailimgcontato{
+    float: left;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .botaoformemail {
+    margin-top: 15px;
+    width: 100px;
+  }
+
 
   .imgbox,
   .imgbox2,
@@ -215,7 +274,7 @@
     width: 100%;
   }
   .box-front3{
-    height: 300px;
+    height: 350px;
     width: 100%;
   }
   .box-front h2 {
@@ -247,6 +306,10 @@
   }
   .botaoreserva {
     margin-top: 20%;
+  }
+
+  .fundo {
+    margin-top: 60px;
   }
 }
 
@@ -294,8 +357,8 @@
     margin-top: 20px;
   }
 
-  .origem,
-  .destino,
+  .emailcontato,
+  .recebaofertas,
   #data {
     float: left;
     width: 100px;
@@ -311,6 +374,58 @@
     width: 120px;
   }
 
+  /*-- EMAIL --*/
+
+
+  .containerformemail {
+    margin-top: 50px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #textemail{
+    float: left;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    padding: 10px;
+    border-color: #0D0D0D;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  #recebaofertas{
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+  }
+  .formemail {
+    padding: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 10px;
+    color:#0D0D0D;
+    background-color: #fff;
+    width: 800px; 
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+  }
+  #emailimgcontato{
+    float: left;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .botaoformemail {
+    margin-top: 15px;
+    width: 100px;
+  }
+
   .imgbox,
   .imgbox2,
   .imgbox3,
@@ -319,7 +434,7 @@
   .imgbox6,
   .imgbox7,
   .imgbox8 {
-    height: 210px;
+    height: 150px;
   }
 
   .flip-container,
@@ -365,6 +480,9 @@
     margin-left: 5%;
   }
 
+  .flipper12 {
+    margin-right: 5%;
+  } 
   .flipper8,.flipper4 {
     margin-right: 5%;
   }
@@ -374,10 +492,13 @@
   }
 
   .box {
-    height: 550px;
+    height: 580px;
     width: 100%;
   }
-
+  .box-front3{
+    height: 280px;
+    width: 100%;
+  }
   .box-front h2 {
     font-size: 1.5em;
   }
@@ -406,9 +527,29 @@
     font-size: 0.8em;
   }
 
-  .fundo {
-    height: 600px;
+  .slider{
+    height: 45%;
   }
+
+  .slider2{
+    height: 10%;
+  }
+
+  li.slide{
+    height: 300px;
+    width: 350px;
+  }
+
+  li.slide2{
+    height: 50px;
+    width: 350px;
+  }
+
+  .fundo {
+    height: 550px;
+    margin-top: 60px;
+  }
+
 
   .rodape {
     margin-top: 10px;
@@ -488,6 +629,59 @@
   .botaoform {
     width: 120px;
   }
+
+  /*-- EMAIL --*/
+
+
+  .containerformemail {
+    margin-top: 50px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #textemail{
+    float: left;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    padding: 10px;
+    border-color: #0D0D0D;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  #recebaofertas{
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+  }
+  .formemail {
+    padding: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 10px;
+    color:#0D0D0D;
+    background-color: #fff;
+    width: 800px; 
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+  }
+  #emailimgcontato{
+    float: left;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .botaoformemail {
+    margin-top: 15px;
+    width: 100px;
+  }
+
   .flip-container,
   .front,
   .front3,
@@ -526,8 +720,11 @@
     margin-left: 5%;
   }
 
-  .flipper4,.flipper8 {
-    margin-right: 4%;
+  .flipper12 {
+    margin-right: 5%;
+  } 
+  .flipper8,.flipper4 {
+    margin-right: 5%;
   }
 
   .flipper9{
@@ -535,7 +732,11 @@
   }
 
   .box {
-    height: 550px;
+    height: 580px;
+    width: 100%;
+  }
+  .box-front3{
+    height: 280px;
     width: 100%;
   }
 
@@ -567,8 +768,27 @@
     font-size: 1em;
   }
 
+  .slider{
+    height: 50%;
+  }
+
+  .slider2{
+    height: 10%;
+  }
+
+  li.slide{
+    height: 350px;
+    width: 350px;
+  }
+
+  li.slide2{
+    height: 50px;
+    width: 350px;
+  }
+
   .fundo {
-    height: 600px;
+    height: 550px;
+    margin-top: 60px;
   }
 
   .rodape {

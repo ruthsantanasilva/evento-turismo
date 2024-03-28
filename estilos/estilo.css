@@ -148,7 +148,7 @@ nav ul li a:hover {
 }
 .containerform {
   background: linear-gradient(180deg, #D672F2 0%, #e2dbcfcb 100%);
-  height: 380px;
+  height: 460px;
   width: 100%;
   text-align: center;
 }
@@ -303,6 +303,11 @@ h2 {
   width: 330px;
   cursor: pointer;
   border-radius: 20px;
+}
+
+.box-front3{
+  height: 200px;
+  width: 320px;
 }
 
 .box-front {
@@ -566,10 +571,6 @@ h2 {
   border-radius: 20px 20px 0px 0px;
 }
 
-/*Nono pacote*/
-
-
-
 .botaoreserva {
   display: flex;
   align-items: center;
@@ -605,14 +606,82 @@ h2 {
   transform: translateY(-6px);
 }
 
+/*---slider----*/
+
+.slider, .slider2{
+  
+  list-style-type: none;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+li.slide{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+
+li.slide2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.slide2 p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.8em;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.slide img {
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 1px 1px 5px #242425;
+  border-radius: 60%;
+  height: 100%;
+  width: 100%;
+ }
+ 
+/*#242425*/
 #tituloopinioes{
   font-family: 'beach';
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.5em;
+  padding: 10px;
+
 }
+
 .box-front3{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.perfil{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.estrelas{
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 .tituloavaliacao{
   font-size: 1em;
@@ -629,13 +698,72 @@ h2 {
 .txtavaliacao{
   margin-top: 20px;
   font-size: 0.6em;
+  color: #242425b9;
+}
+
+/*--EMAIL--*/
+
+.containerformemail {
+  margin-top: 20px;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.formemail {
+  padding: 10px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 10px;
+  color:#0D0D0D;
+  background-color: #fff;
+  width: 400px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px #24242585;
+}
+#emailimgcontato{
+  width: 100px;
+  height: 100px;
+}
+
+.origem,
+.destino,
+#data {
+  float: left;
+  width: 100px;
+  padding: 15px;
+  margin-left: 10px;
+  border-radius: 50px;
+  border-color: rgba(240, 248, 255, 0.39);
+  font-weight: bolder;
+}
+
+.botaoformemail {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1em;
+  background-color: #f28444;
+  font-weight: bold;
+  padding: 10px;
+  width: 200px;
+  border-radius: 50px;
+  margin-top: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+  border-color: transparent;
+  cursor: pointer;
+}
+.botaoformemail:hover {
+  background-color: #881df2;
+  color: #fff;
+  transition: all 0.4s ease-in;
 }
 
 .fundo {
   background: black url("../imagens/fundo2.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 500px;
-  margin-top: 30px;
+  margin-top: 90px;
 }
 .rodape {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
