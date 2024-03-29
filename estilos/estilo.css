@@ -6,20 +6,15 @@
   font-weight: bold;
   font-style: normal;
 }
-
 * {
   margin: 0px;
   padding: 0px;
 }
-
 body {
   width: 100%;
   height: 100%;
-  /*background: linear-gradient(90deg, #E25822 0%, #c67700cb 100%);*/
-  /*background: linear-gradient(90deg, #f28444 0%, #6b17bf 100%);*/
-  background: #d8d7d6c5;
+  background: #d8d7d69d;
 }
-
 .prod {
   margin-top: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -59,32 +54,26 @@ section.corpo3 {
   width: 135px;
   height: 65px;
 }
-
-
 header table {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: right;
-  
   height: 35px;
   width: 100%;
   margin-top: -80px;
- 
 }
-
 header table tr {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 10px;
   font-size: 14px;
   font-weight: bold;
 }
-
 #central {
   width: 230px;
   font-size: 10px;
 }
-#emailp{
+#emailp {
   font-size: 10px;
   width: 160px;
 }
@@ -96,30 +85,26 @@ header table tr {
 table tr td {
   width: 180px;
 }
-
-#user,#email {
+#user,
+#email {
   width: 20px;
   height: 20px;
 }
-
-#userentre{
+#userentre {
   width: 30px;
   height: 30px;
 }
-
-#entre{
+#entre {
   width: 20px;
   height: 20px;
   margin-top: 5px;
 }
-
 nav ul {
-  background: #D672F2;
+  background: #d672f2;
   text-align: right;
   width: 100%;
   color: #881df2;
 }
-
 nav ul li {
   display: inline-block;
   padding: 5px;
@@ -133,7 +118,6 @@ nav ul li {
   cursor: pointer;
   color: #881df2;
 }
-
 nav ul li:hover {
   color: #fff;
   transition: 0.6s;
@@ -145,40 +129,37 @@ nav ul li a:hover {
   text-decoration: none;
   color: #fff;
   transition: 0.6s;
-}
+} /*FORMULÁRIO DE ORIGEM E DESTINO*/
 .containerform {
-  background: linear-gradient(180deg, #D672F2 0%, #e2dbcfcb 100%);
+  background: linear-gradient(180deg, #d672f2 0%, #e2dbcfcb 100%);
   height: 460px;
   width: 100%;
   text-align: center;
 }
-
 .formviagem {
   padding: 10px;
   display: inline-block;
   margin-left: 5px;
   margin-top: 10px;
-  color:#0D0D0D;
+  color: #0d0d0d;
   background-color: #fff;
-  width: 360px; 
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50px;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
 }
 #titulopacote {
   font-family: "Beach";
   font-size: 2em;
-  color: #0D0D0D; /*#881df2;*/
+  color: #0d0d0d;
   text-align: center;
 }
-
-#subtitulo{
+#subtitulo {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 0.6em;
-  color: #0D0D0D; /*#881df2;*/
+  color: #0d0d0d;
   text-align: center;
 }
-
 .destino,
 .data,
 .origem,
@@ -188,21 +169,19 @@ nav ul li a:hover {
   display: inline-block;
   width: 280px;
   border-color: transparent;
-  color: #0D0D0D;
+  color: #0d0d0d;
   padding: 10px;
   border-radius: 50px;
-  cursor:pointer;
+  cursor: pointer;
   border-color: rgba(240, 248, 255, 0.39);
   font-weight: bolder;
 }
-
 .formviagem p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   font-size: 0.7em;
   margin-top: 10px;
 }
-
 .botaoform {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.2em;
@@ -221,30 +200,24 @@ nav ul li a:hover {
   color: #fff;
   transition: all 0.4s ease-in;
 }
-
 header {
   width: 100%;
   position: absolute;
   margin-top: 10px;
 }
-
 header h1 {
   font-family: "Beach";
   text-align: center;
   font-size: 2.2em;
-  color: #0D0D0D;
+  color: #0d0d0d;
 }
-
 h2 {
   font-family: "Beach";
   text-align: center;
   font-size: 1.5em;
-}
-
-/* PRIMEIRO PACOTE */
-
+} /* PACOTES DE VIAGEM */
 .flip-container:hover .flipper,
-.flip-container.hover .flipper, 
+.flip-container.hover .flipper,
 .flip-container2:hover .flipper2,
 .flip-container2.hover .flipper2,
 .flip-container3:hover .flipper3,
@@ -258,10 +231,9 @@ h2 {
 .flip-container7:hover .flipper7,
 .flip-container7.hover .flipper7,
 .flip-container8:hover .flipper8,
-.flip-container8.hover .flipper8  {
+.flip-container8.hover .flipper8 {
   transform: rotateY(180deg);
 }
-
 .flip-container,
 .front,
 .back {
@@ -269,11 +241,9 @@ h2 {
   height: 400px;
   width: 330px;
   background-color: transparent;
-
   transition: width 0.4s, height 0.4s;
   transition-timing-function: ease;
-}
-
+} /*PRIMEIRO PACOTE*/
 .flipper {
   position: relative;
   width: 100%;
@@ -281,7 +251,6 @@ h2 {
   transform-style: preserve-3d;
   transition: transform 0.8s;
 }
-
 .front,
 .back {
   position: absolute;
@@ -289,32 +258,27 @@ h2 {
   width: 100%;
   height: 100%;
 }
-
 .front {
   transform: rotateY(0deg);
 }
-
 .back {
   transform: rotateY(180deg);
 }
-
 .box {
   height: 400px;
   width: 330px;
   cursor: pointer;
   border-radius: 20px;
 }
-
-.box-front3{
+.box-front3 {
   height: 200px;
   width: 320px;
 }
-
 .box-front {
   background-color: rgba(255, 255, 255, 0.404);
 }
 .imgbox {
-  background: black url("../imagens/bonito.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/bonito.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
@@ -354,20 +318,17 @@ h2 {
   text-align: center;
   font-size: 0.8em;
 }
-
 .box-front .obs {
   font-family: "Beach";
   text-align: center;
   font-size: 0.8em;
   margin-top: -15px;
 }
-
 .box-back {
-  background: black url("../imagens/bonito.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/bonito.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
-
 .botao {
   background: #f28444;
   font-weight: bolder;
@@ -385,9 +346,6 @@ h2 {
   color: #fff;
   transition: all 0.4s ease-in;
 }
-
-/*Segundo pacote*/
-
 .flip-container2,
 .flip-container3,
 .flip-container4,
@@ -398,13 +356,11 @@ h2 {
 .flip-container9,
 .flip-container10,
 .flip-container11,
-.flip-container12
- {
+.flip-container12 {
   height: 385px;
   width: 330px;
   background-color: transparent;
-}
-
+} /*SEGUNDO PACOTE*/
 .flipper2 {
   top: 7%;
   position: relative;
@@ -413,22 +369,17 @@ h2 {
   transform-style: preserve-3d;
   transition: transform 0.8s;
 }
-
 .box-back2 {
-  background: black url("../imagens/praia.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/praia.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
-
 .imgbox2 {
-  background: black url("../imagens/praia.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/praia.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
-}
-
-/*Terceiro pacote*/
-
+} /*TERCEIRO PACOTE*/
 .flipper3 {
   top: 17%;
   position: relative;
@@ -437,22 +388,17 @@ h2 {
   transform-style: preserve-3d;
   transition: transform 0.8s;
 }
-
 .box-back3 {
-  background: black url("../imagens/nova.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/nova.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
-
 .imgbox3 {
-  background: black url("../imagens/nova.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/nova.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
-}
-
-/*Quarto pacote*/
-
+} /*QUARTO PACOTE*/
 .flipper4 {
   top: 26%;
   position: relative;
@@ -461,22 +407,17 @@ h2 {
   transform-style: preserve-3d;
   transition: transform 0.8s;
 }
-
 .box-back4 {
-  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/roma.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
-
 .imgbox4 {
-  background: black url("../imagens/roma.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/roma.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
-}
-
-/*Quinto pacote*/
-
+} /*QUINTO PACOTE*/
 .flipper5 {
   top: 35%;
   position: relative;
@@ -485,22 +426,17 @@ h2 {
   transform-style: preserve-3d;
   transition: transform 0.8s;
 }
-
 .box-back5 {
-  background: black url("../imagens/saopaulo.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/saopaulo.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
-
 .imgbox5 {
-  background: black url("../imagens/saopaulo.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/saopaulo.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
-}
-
-/*Sexto pacote*/
-
+} /*SEXTO PACOTE*/
 .flipper6 {
   top: 44%;
   position: relative;
@@ -509,22 +445,17 @@ h2 {
   transform-style: preserve-3d;
   transition: transform 0.8s;
 }
-
 .box-back6 {
-  background: black url("../imagens/salvador.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/salvador.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
-
 .imgbox6 {
-  background: black url("../imagens/salvador.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/salvador.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
-}
-
-/*Sétimo pacote*/
-
+} /*SÉTIMO PACOTE*/
 .flipper7 {
   top: 53%;
   position: relative;
@@ -533,22 +464,17 @@ h2 {
   transform-style: preserve-3d;
   transition: transform 0.8s;
 }
-
 .box-back7 {
-  background: black url("../imagens/japao.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/japao.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
-
 .imgbox7 {
-  background: black url("../imagens/japao.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/japao.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
-}
-
-/*Oitavo pacote*/
-
+} /*OITAVO PACOTE*/
 .flipper8 {
   top: 62%;
   position: relative;
@@ -557,27 +483,25 @@ h2 {
   transform-style: preserve-3d;
   transition: transform 0.8s;
 }
-
 .box-back8 {
-  background: black url("../imagens/riodejaneiro.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/riodejaneiro.jpg") center center no-repeat
+    fixed;
   background-size: cover;
   text-align: center;
 }
-
 .imgbox8 {
-  background: black url("../imagens/riodejaneiro.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/riodejaneiro.jpg") center center no-repeat
+    fixed;
   background-size: cover;
   height: 120px;
   border-radius: 20px 20px 0px 0px;
-}
-
+} /*BOTÃO RESERVA*/
 .botaoreserva {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 5%;
 }
-
 .botao1 {
   min-width: 300px;
   min-height: 60px;
@@ -588,30 +512,25 @@ h2 {
   letter-spacing: 1.3px;
   font-weight: 700;
   color: black;
-  background: #D672F2;
-  background: linear-gradient(90deg, #D672F2, 0%, #D672F2 100%);
+  background: #d672f2;
+  background: linear-gradient(90deg, #d672f2, 0%, #d672f2 100%);
   border: none;
   border-radius: 1000px;
-  box-shadow: 5px 5px 8px #881DF2;
+  box-shadow: 5px 5px 8px #881df2;
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
   position: relative;
   padding: 10px;
 }
-
 .botao1:hover,
 .botao1:focus {
   color: #242425;
   transform: translateY(-6px);
-}
-
-/*---slider----*/
-
-.slider, .slider2{
-  
+} /*---LUGARES MAIS REQUISITADOS----*/
+.slider,
+.slider2 {
   list-style-type: none;
-  
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -619,8 +538,7 @@ h2 {
   height: 100%;
   width: 100%;
 }
-
-li.slide{
+li.slide {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
@@ -628,18 +546,16 @@ li.slide{
   height: 200px;
   width: 200px;
 }
-
-li.slide2{
+li.slide2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 50px;
   width: 200px;
   margin-top: 10px;
-}
-
-.slide2 p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} /*LEGENDA DOS LUGARES MAIS REQUISITADOS*/
+.slide2 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 0.8em;
   margin-left: 5px;
   margin-right: 5px;
@@ -647,7 +563,6 @@ li.slide2{
   height: 100%;
   width: 100%;
 }
-
 .slide img {
   margin-left: 5px;
   margin-right: 5px;
@@ -655,104 +570,90 @@ li.slide2{
   border-radius: 60%;
   height: 100%;
   width: 100%;
- }
- 
-/*#242425*/
-#tituloopinioes{
-  font-family: 'beach';
+} /*COMENTÁRIOS DOS VIAJANTES*/
+#tituloopinioes {
+  font-family: "beach";
   margin-top: 40px;
   text-align: center;
   font-size: 1.5em;
   padding: 10px;
-
 }
-
-.box-front3{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.box-front3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-.perfil{
+.perfil {
   width: 35px;
   height: 35px;
   border-radius: 50%;
   margin-right: 20px;
 }
-.estrelas{
+.estrelas {
   width: 80px;
   height: 40px;
   margin-top: 10px;
   margin-left: 10px;
 }
-.tituloavaliacao{
+.tituloavaliacao {
   font-size: 1em;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-#subtituloop{
+#subtituloop {
   margin-top: 10px;
   font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 0.8em;
 }
-
-.txtavaliacao{
+.txtavaliacao {
   margin-top: 20px;
   font-size: 0.6em;
   color: #242425b9;
-}
-
-/*--EMAIL--*/
-
+} /*-- FORMULÁRIO DE EMAIL--*/
 .containerformemail {
   margin-top: 20px;
   height: 200px;
   width: 100%;
   text-align: center;
 }
-
 .formemail {
   padding: 10px;
   display: inline-block;
   margin-left: 5px;
   margin-top: 10px;
-  color:#0D0D0D;
+  color: #0d0d0d;
   background-color: #fff;
-  width: 400px; 
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    box-shadow: 1px 1px 3px #24242585;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px #24242585;
 }
-
-#textemail{
+#textemail {
   float: left;
   font-size: 0.8em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 200px;
   padding: 10px;
-  border-color: #0D0D0D;
+  border-color: #0d0d0d;
   margin-left: 25px;
   margin-top: 20px;
   border-radius: 10px;
 }
-
-#recebaofertas{
+#recebaofertas {
   float: left;
   margin-left: 10px;
   margin-top: 20px;
   font-size: 0.8em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 250px;
   padding: 10px;
 }
-#emailimgcontato{
+#emailimgcontato {
   float: left;
   width: 60px;
   height: 60px;
   margin-left: 30px;
   margin-top: 20px;
 }
-
 .botaoformemail {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1em;
@@ -770,20 +671,18 @@ li.slide2{
   background-color: #881df2;
   color: #fff;
   transition: all 0.4s ease-in;
-}
-
+} /*IMAGEM DE FUNDO ANTES DO RODAPÉ*/
 .fundo {
-  background: black url("../imagens/fundo2.jpg") center center no-repeat fixed;
+  background: black url("../imagens/local/fundo2.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 500px;
   margin-top: 90px;
-}
+} /*RODAPÉ*/
 .rodape {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   margin-top: 10px;
 }
-
 footer a {
   text-decoration: none;
   color: black;
@@ -791,7 +690,6 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-
 footer .cred {
   margin-top: 10px;
   font-size: 0.6em;
